@@ -1,0 +1,22 @@
+{
+    "name": "fy/raspadinhabr",
+    "description": "Desenvolvido por Yago +5547997558884",
+    "autoload": {
+        "psr-4": {
+            "Yago\\RaspadinhaBR\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yago",
+            "email": "felipeyagobrr@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.9",
+        "symfony/var-dumper": "^7.3",
+        "doctrine/orm": "^3.5",
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

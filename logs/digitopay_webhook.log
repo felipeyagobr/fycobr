@@ -1,0 +1,1477 @@
+[2025-07-19 16:01:05] === WEBHOOK ACCESSED ===
+[2025-07-19 16:01:05] Method: POST
+[2025-07-19 16:01:05] User-Agent: PostmanRuntime/7.44.1
+[2025-07-19 16:01:05] Raw Input: {
+    "id": "0c7fc9b3-de01-44c1-922c-026ff9887332",
+    "status": "REALIZADO",
+    "idempotencyKey": "687ba4ce6c379-1752933582",
+    "amount": 20.00,
+    "timestamp": "2025-07-19T13:28:16Z",
+    "type": "SAQUE"
+}
+[2025-07-19 16:01:05] Parsed webhook data: {"id":"0c7fc9b3-de01-44c1-922c-026ff9887332","status":"REALIZADO","idempotencyKey":"687ba4ce6c379-1752933582","amount":20,"timestamp":"2025-07-19T13:28:16Z","type":"SAQUE"}
+[2025-07-19 16:01:05] Processing - Transaction ID: 0c7fc9b3-de01-44c1-922c-026ff9887332, Status: REALIZADO, Idempotency: 687ba4ce6c379-1752933582
+[2025-07-19 16:01:05] Status mapping: REALIZADO -> PAID
+[2025-07-19 16:01:05] Search result: Found via transaction_id_digitopay
+[2025-07-19 16:01:05] Saque data: {"id":14,"user_id":9,"valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-19 16:01:05] Status updated: PROCESSING -> PAID for saque ID 14
+[2025-07-19 16:01:05] Transaction committed successfully
+[2025-07-19 16:01:05] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"0c7fc9b3-de01-44c1-922c-026ff9887332","saque_id":14,"old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-19 16:01:05"}
+[2025-07-19 23:54:25] === WEBHOOK ACCESSED ===
+[2025-07-19 23:54:25] Method: POST
+[2025-07-19 23:54:25] User-Agent: Unknown
+[2025-07-19 23:54:25] Raw Input: {"id":"d8b41498-6dee-43b9-ae76-e8dcb26e3362","movementDate":"2025-07-19T20:54:25.5540258Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"687c303159644-1752969265"}
+[2025-07-19 23:54:25] Parsed webhook data: {"id":"d8b41498-6dee-43b9-ae76-e8dcb26e3362","movementDate":"2025-07-19T20:54:25.5540258Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"687c303159644-1752969265"}
+[2025-07-19 23:54:25] Processing - Transaction ID: d8b41498-6dee-43b9-ae76-e8dcb26e3362, Status: EM PROCESSAMENTO, Idempotency: 687c303159644-1752969265
+[2025-07-19 23:54:25] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-19 23:54:25] Search result: Found via transaction_id_digitopay
+[2025-07-19 23:54:25] Saque data: {"id":"1","user_id":"5","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-19 23:54:25] Status já atualizado: PROCESSING
+[2025-07-19 23:54:39] === WEBHOOK ACCESSED ===
+[2025-07-19 23:54:39] Method: POST
+[2025-07-19 23:54:39] User-Agent: Unknown
+[2025-07-19 23:54:39] Raw Input: {"recebedor":{"cpfCnpj":"70986156418","nome":"THEON LUCAS LUCENA DA SILVA"},"id":"d8b41498-6dee-43b9-ae76-e8dcb26e3362","movementDate":"2025-07-19T20:54:39.3178195Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"687c303159644-1752969265"}
+[2025-07-19 23:54:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"70986156418","nome":"THEON LUCAS LUCENA DA SILVA"},"id":"d8b41498-6dee-43b9-ae76-e8dcb26e3362","movementDate":"2025-07-19T20:54:39.3178195Z","status":"REALIZADO","valor":10,"idempotencyKey":"687c303159644-1752969265"}
+[2025-07-19 23:54:39] Processing - Transaction ID: d8b41498-6dee-43b9-ae76-e8dcb26e3362, Status: REALIZADO, Idempotency: 687c303159644-1752969265
+[2025-07-19 23:54:39] Status mapping: REALIZADO -> PAID
+[2025-07-19 23:54:39] Search result: Found via transaction_id_digitopay
+[2025-07-19 23:54:39] Saque data: {"id":"1","user_id":"5","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-19 23:54:39] Status updated: PROCESSING -> PAID for saque ID 1
+[2025-07-19 23:54:39] Transaction committed successfully
+[2025-07-19 23:54:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"d8b41498-6dee-43b9-ae76-e8dcb26e3362","saque_id":"1","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-19 23:54:39"}
+[2025-07-20 18:10:33] === WEBHOOK ACCESSED ===
+[2025-07-20 18:10:33] Method: POST
+[2025-07-20 18:10:33] User-Agent: Unknown
+[2025-07-20 18:10:33] Raw Input: {"id":"a81de3fb-a4a8-495a-b9ce-d7f7d290c30d","movementDate":"2025-07-20T15:10:33.6491286Z","status":"EM PROCESSAMENTO","valor":13.0,"idempotencyKey":"687d31196890c-1753035033"}
+[2025-07-20 18:10:33] Parsed webhook data: {"id":"a81de3fb-a4a8-495a-b9ce-d7f7d290c30d","movementDate":"2025-07-20T15:10:33.6491286Z","status":"EM PROCESSAMENTO","valor":13,"idempotencyKey":"687d31196890c-1753035033"}
+[2025-07-20 18:10:33] Processing - Transaction ID: a81de3fb-a4a8-495a-b9ce-d7f7d290c30d, Status: EM PROCESSAMENTO, Idempotency: 687d31196890c-1753035033
+[2025-07-20 18:10:33] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 18:10:33] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:10:33] Saque data: {"id":"3","user_id":"26","valor":"13.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:10:33] Status já atualizado: PROCESSING
+[2025-07-20 18:11:05] === WEBHOOK ACCESSED ===
+[2025-07-20 18:11:05] Method: POST
+[2025-07-20 18:11:05] User-Agent: Unknown
+[2025-07-20 18:11:05] Raw Input: {"recebedor":{"cpfCnpj":"06397566463","nome":"Marcos Vinicius"},"id":"a81de3fb-a4a8-495a-b9ce-d7f7d290c30d","movementDate":"2025-07-20T15:11:05.6841412Z","status":"REALIZADO","valor":13.0,"idempotencyKey":"687d31196890c-1753035033"}
+[2025-07-20 18:11:05] Parsed webhook data: {"recebedor":{"cpfCnpj":"06397566463","nome":"Marcos Vinicius"},"id":"a81de3fb-a4a8-495a-b9ce-d7f7d290c30d","movementDate":"2025-07-20T15:11:05.6841412Z","status":"REALIZADO","valor":13,"idempotencyKey":"687d31196890c-1753035033"}
+[2025-07-20 18:11:05] Processing - Transaction ID: a81de3fb-a4a8-495a-b9ce-d7f7d290c30d, Status: REALIZADO, Idempotency: 687d31196890c-1753035033
+[2025-07-20 18:11:05] Status mapping: REALIZADO -> PAID
+[2025-07-20 18:11:05] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:11:05] Saque data: {"id":"3","user_id":"26","valor":"13.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:11:05] Status updated: PROCESSING -> PAID for saque ID 3
+[2025-07-20 18:11:05] Transaction committed successfully
+[2025-07-20 18:11:05] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a81de3fb-a4a8-495a-b9ce-d7f7d290c30d","saque_id":"3","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 18:11:05"}
+[2025-07-20 18:23:17] === WEBHOOK ACCESSED ===
+[2025-07-20 18:23:17] Method: POST
+[2025-07-20 18:23:17] User-Agent: Unknown
+[2025-07-20 18:23:17] Raw Input: {"id":"a75b72b1-c0f6-4c04-bf94-3b1224c81ce1","movementDate":"2025-07-20T15:23:17.6371018Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"687d34156b5bf-1753035797"}
+[2025-07-20 18:23:17] Parsed webhook data: {"id":"a75b72b1-c0f6-4c04-bf94-3b1224c81ce1","movementDate":"2025-07-20T15:23:17.6371018Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"687d34156b5bf-1753035797"}
+[2025-07-20 18:23:17] Processing - Transaction ID: a75b72b1-c0f6-4c04-bf94-3b1224c81ce1, Status: EM PROCESSAMENTO, Idempotency: 687d34156b5bf-1753035797
+[2025-07-20 18:23:17] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 18:23:17] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:23:17] Saque data: {"id":"4","user_id":"29","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:23:17] Status já atualizado: PROCESSING
+[2025-07-20 18:23:24] === WEBHOOK ACCESSED ===
+[2025-07-20 18:23:24] Method: POST
+[2025-07-20 18:23:24] User-Agent: Unknown
+[2025-07-20 18:23:24] Raw Input: {"id":"a75b72b1-c0f6-4c04-bf94-3b1224c81ce1","movementDate":"2025-07-20T15:23:24.0511101Z","status":"CANCELADO","valor":10.0,"idempotencyKey":"687d34156b5bf-1753035797"}
+[2025-07-20 18:23:24] Parsed webhook data: {"id":"a75b72b1-c0f6-4c04-bf94-3b1224c81ce1","movementDate":"2025-07-20T15:23:24.0511101Z","status":"CANCELADO","valor":10,"idempotencyKey":"687d34156b5bf-1753035797"}
+[2025-07-20 18:23:24] Processing - Transaction ID: a75b72b1-c0f6-4c04-bf94-3b1224c81ce1, Status: CANCELADO, Idempotency: 687d34156b5bf-1753035797
+[2025-07-20 18:23:24] Status mapping: CANCELADO -> CANCELLED
+[2025-07-20 18:23:24] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:23:24] Saque data: {"id":"4","user_id":"29","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:23:24] Status updated: PROCESSING -> CANCELLED for saque ID 4
+[2025-07-20 18:23:24] Processing refund for failed/cancelled withdrawal
+[2025-07-20 18:23:24] Refund processed: R$ 10.00 returned to user 29
+[2025-07-20 18:23:24] Transaction committed successfully
+[2025-07-20 18:23:24] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a75b72b1-c0f6-4c04-bf94-3b1224c81ce1","saque_id":"4","old_status":"PROCESSING","new_status":"CANCELLED","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 18:23:24"}
+[2025-07-20 18:33:44] === WEBHOOK ACCESSED ===
+[2025-07-20 18:33:44] Method: POST
+[2025-07-20 18:33:44] User-Agent: Unknown
+[2025-07-20 18:33:44] Raw Input: {"id":"5f3b795a-4b76-4397-b120-a6c1272b10e0","movementDate":"2025-07-20T15:33:43.9987921Z","status":"EM PROCESSAMENTO","valor":15.0,"idempotencyKey":"687d3687c7fac-1753036423"}
+[2025-07-20 18:33:44] Parsed webhook data: {"id":"5f3b795a-4b76-4397-b120-a6c1272b10e0","movementDate":"2025-07-20T15:33:43.9987921Z","status":"EM PROCESSAMENTO","valor":15,"idempotencyKey":"687d3687c7fac-1753036423"}
+[2025-07-20 18:33:44] Processing - Transaction ID: 5f3b795a-4b76-4397-b120-a6c1272b10e0, Status: EM PROCESSAMENTO, Idempotency: 687d3687c7fac-1753036423
+[2025-07-20 18:33:44] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 18:33:44] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:33:44] Saque data: {"id":"5","user_id":"46","valor":"15.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:33:44] Status já atualizado: PROCESSING
+[2025-07-20 18:34:06] === WEBHOOK ACCESSED ===
+[2025-07-20 18:34:06] Method: POST
+[2025-07-20 18:34:06] User-Agent: Unknown
+[2025-07-20 18:34:06] Raw Input: {"recebedor":{"cpfCnpj":"16526427499","nome":"Alisson"},"id":"5f3b795a-4b76-4397-b120-a6c1272b10e0","movementDate":"2025-07-20T15:34:06.5344355Z","status":"REALIZADO","valor":15.0,"idempotencyKey":"687d3687c7fac-1753036423"}
+[2025-07-20 18:34:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"16526427499","nome":"Alisson"},"id":"5f3b795a-4b76-4397-b120-a6c1272b10e0","movementDate":"2025-07-20T15:34:06.5344355Z","status":"REALIZADO","valor":15,"idempotencyKey":"687d3687c7fac-1753036423"}
+[2025-07-20 18:34:06] Processing - Transaction ID: 5f3b795a-4b76-4397-b120-a6c1272b10e0, Status: REALIZADO, Idempotency: 687d3687c7fac-1753036423
+[2025-07-20 18:34:06] Status mapping: REALIZADO -> PAID
+[2025-07-20 18:34:06] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:34:06] Saque data: {"id":"5","user_id":"46","valor":"15.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:34:06] Status updated: PROCESSING -> PAID for saque ID 5
+[2025-07-20 18:34:06] Transaction committed successfully
+[2025-07-20 18:34:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"5f3b795a-4b76-4397-b120-a6c1272b10e0","saque_id":"5","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 18:34:06"}
+[2025-07-20 18:38:02] === WEBHOOK ACCESSED ===
+[2025-07-20 18:38:02] Method: POST
+[2025-07-20 18:38:02] User-Agent: Unknown
+[2025-07-20 18:38:02] Raw Input: {"id":"cb665bbd-09c1-408b-a3db-d6c7557bbbe4","movementDate":"2025-07-20T15:38:02.022538Z","status":"EM PROCESSAMENTO","valor":40.0,"idempotencyKey":"687d3789b1970-1753036681"}
+[2025-07-20 18:38:02] Parsed webhook data: {"id":"cb665bbd-09c1-408b-a3db-d6c7557bbbe4","movementDate":"2025-07-20T15:38:02.022538Z","status":"EM PROCESSAMENTO","valor":40,"idempotencyKey":"687d3789b1970-1753036681"}
+[2025-07-20 18:38:02] Processing - Transaction ID: cb665bbd-09c1-408b-a3db-d6c7557bbbe4, Status: EM PROCESSAMENTO, Idempotency: 687d3789b1970-1753036681
+[2025-07-20 18:38:02] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 18:38:02] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:38:02] Saque data: {"id":"6","user_id":"46","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:38:02] Status já atualizado: PROCESSING
+[2025-07-20 18:38:39] === WEBHOOK ACCESSED ===
+[2025-07-20 18:38:39] Method: POST
+[2025-07-20 18:38:39] User-Agent: Unknown
+[2025-07-20 18:38:39] Raw Input: {"recebedor":{"cpfCnpj":"16526427499","nome":"Alisson"},"id":"cb665bbd-09c1-408b-a3db-d6c7557bbbe4","movementDate":"2025-07-20T15:38:39.1573884Z","status":"REALIZADO","valor":40.0,"idempotencyKey":"687d3789b1970-1753036681"}
+[2025-07-20 18:38:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"16526427499","nome":"Alisson"},"id":"cb665bbd-09c1-408b-a3db-d6c7557bbbe4","movementDate":"2025-07-20T15:38:39.1573884Z","status":"REALIZADO","valor":40,"idempotencyKey":"687d3789b1970-1753036681"}
+[2025-07-20 18:38:39] Processing - Transaction ID: cb665bbd-09c1-408b-a3db-d6c7557bbbe4, Status: REALIZADO, Idempotency: 687d3789b1970-1753036681
+[2025-07-20 18:38:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 18:38:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:38:39] Saque data: {"id":"6","user_id":"46","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:38:39] Status updated: PROCESSING -> PAID for saque ID 6
+[2025-07-20 18:38:39] Transaction committed successfully
+[2025-07-20 18:38:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"cb665bbd-09c1-408b-a3db-d6c7557bbbe4","saque_id":"6","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 18:38:39"}
+[2025-07-20 18:49:31] === WEBHOOK ACCESSED ===
+[2025-07-20 18:49:31] Method: POST
+[2025-07-20 18:49:31] User-Agent: Unknown
+[2025-07-20 18:49:31] Raw Input: {"id":"6047179f-9a62-4504-a5bb-c16bf1005956","movementDate":"2025-07-20T15:49:31.7021675Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"687d3a3b82ba9-1753037371"}
+[2025-07-20 18:49:31] Parsed webhook data: {"id":"6047179f-9a62-4504-a5bb-c16bf1005956","movementDate":"2025-07-20T15:49:31.7021675Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"687d3a3b82ba9-1753037371"}
+[2025-07-20 18:49:31] Processing - Transaction ID: 6047179f-9a62-4504-a5bb-c16bf1005956, Status: EM PROCESSAMENTO, Idempotency: 687d3a3b82ba9-1753037371
+[2025-07-20 18:49:31] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 18:49:31] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:49:31] Saque data: {"id":"7","user_id":"52","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:49:31] Status já atualizado: PROCESSING
+[2025-07-20 18:50:05] === WEBHOOK ACCESSED ===
+[2025-07-20 18:50:05] Method: POST
+[2025-07-20 18:50:05] User-Agent: Unknown
+[2025-07-20 18:50:05] Raw Input: {"recebedor":{"cpfCnpj":"16216966421","nome":"BRUNO MATIAS DE MELO"},"id":"6047179f-9a62-4504-a5bb-c16bf1005956","movementDate":"2025-07-20T15:50:05.5828737Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"687d3a3b82ba9-1753037371"}
+[2025-07-20 18:50:05] Parsed webhook data: {"recebedor":{"cpfCnpj":"16216966421","nome":"BRUNO MATIAS DE MELO"},"id":"6047179f-9a62-4504-a5bb-c16bf1005956","movementDate":"2025-07-20T15:50:05.5828737Z","status":"REALIZADO","valor":10,"idempotencyKey":"687d3a3b82ba9-1753037371"}
+[2025-07-20 18:50:05] Processing - Transaction ID: 6047179f-9a62-4504-a5bb-c16bf1005956, Status: REALIZADO, Idempotency: 687d3a3b82ba9-1753037371
+[2025-07-20 18:50:05] Status mapping: REALIZADO -> PAID
+[2025-07-20 18:50:05] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:50:05] Saque data: {"id":"7","user_id":"52","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:50:05] Status updated: PROCESSING -> PAID for saque ID 7
+[2025-07-20 18:50:05] Transaction committed successfully
+[2025-07-20 18:50:05] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"6047179f-9a62-4504-a5bb-c16bf1005956","saque_id":"7","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 18:50:05"}
+[2025-07-20 18:51:55] === WEBHOOK ACCESSED ===
+[2025-07-20 18:51:55] Method: POST
+[2025-07-20 18:51:55] User-Agent: Unknown
+[2025-07-20 18:51:55] Raw Input: {"id":"32ffb8c4-ec3d-4869-8388-1908d53f1497","movementDate":"2025-07-20T15:51:55.156045Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d3acaee5b1-1753037514"}
+[2025-07-20 18:51:55] Parsed webhook data: {"id":"32ffb8c4-ec3d-4869-8388-1908d53f1497","movementDate":"2025-07-20T15:51:55.156045Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d3acaee5b1-1753037514"}
+[2025-07-20 18:51:55] Processing - Transaction ID: 32ffb8c4-ec3d-4869-8388-1908d53f1497, Status: EM PROCESSAMENTO, Idempotency: 687d3acaee5b1-1753037514
+[2025-07-20 18:51:55] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 18:51:55] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:51:55] Saque data: {"id":"8","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:51:55] Status já atualizado: PROCESSING
+[2025-07-20 18:52:06] === WEBHOOK ACCESSED ===
+[2025-07-20 18:52:06] Method: POST
+[2025-07-20 18:52:06] User-Agent: Unknown
+[2025-07-20 18:52:06] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"32ffb8c4-ec3d-4869-8388-1908d53f1497","movementDate":"2025-07-20T15:52:06.4820282Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687d3acaee5b1-1753037514"}
+[2025-07-20 18:52:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"32ffb8c4-ec3d-4869-8388-1908d53f1497","movementDate":"2025-07-20T15:52:06.4820282Z","status":"REALIZADO","valor":20,"idempotencyKey":"687d3acaee5b1-1753037514"}
+[2025-07-20 18:52:06] Processing - Transaction ID: 32ffb8c4-ec3d-4869-8388-1908d53f1497, Status: REALIZADO, Idempotency: 687d3acaee5b1-1753037514
+[2025-07-20 18:52:06] Status mapping: REALIZADO -> PAID
+[2025-07-20 18:52:06] Search result: Found via transaction_id_digitopay
+[2025-07-20 18:52:06] Saque data: {"id":"8","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 18:52:06] Status updated: PROCESSING -> PAID for saque ID 8
+[2025-07-20 18:52:06] Transaction committed successfully
+[2025-07-20 18:52:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"32ffb8c4-ec3d-4869-8388-1908d53f1497","saque_id":"8","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 18:52:06"}
+[2025-07-20 19:02:35] === WEBHOOK ACCESSED ===
+[2025-07-20 19:02:35] Method: POST
+[2025-07-20 19:02:35] User-Agent: Unknown
+[2025-07-20 19:02:35] Raw Input: {"id":"b3780255-cfc6-4316-b5e5-901c7ff2d5f7","movementDate":"2025-07-20T16:02:35.8286701Z","status":"EM PROCESSAMENTO","valor":40.0,"idempotencyKey":"687d3d4b9ccf5-1753038155"}
+[2025-07-20 19:02:36] Parsed webhook data: {"id":"b3780255-cfc6-4316-b5e5-901c7ff2d5f7","movementDate":"2025-07-20T16:02:35.8286701Z","status":"EM PROCESSAMENTO","valor":40,"idempotencyKey":"687d3d4b9ccf5-1753038155"}
+[2025-07-20 19:02:36] Processing - Transaction ID: b3780255-cfc6-4316-b5e5-901c7ff2d5f7, Status: EM PROCESSAMENTO, Idempotency: 687d3d4b9ccf5-1753038155
+[2025-07-20 19:02:36] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 19:02:36] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:02:36] Saque data: {"id":"9","user_id":"63","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:02:36] Status já atualizado: PROCESSING
+[2025-07-20 19:03:06] === WEBHOOK ACCESSED ===
+[2025-07-20 19:03:06] Method: POST
+[2025-07-20 19:03:06] User-Agent: Unknown
+[2025-07-20 19:03:06] Raw Input: {"recebedor":{"cpfCnpj":"10787878910","nome":"Rita carolini Souza da Silva"},"id":"b3780255-cfc6-4316-b5e5-901c7ff2d5f7","movementDate":"2025-07-20T16:03:05.9490752Z","status":"REALIZADO","valor":40.0,"idempotencyKey":"687d3d4b9ccf5-1753038155"}
+[2025-07-20 19:03:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"10787878910","nome":"Rita carolini Souza da Silva"},"id":"b3780255-cfc6-4316-b5e5-901c7ff2d5f7","movementDate":"2025-07-20T16:03:05.9490752Z","status":"REALIZADO","valor":40,"idempotencyKey":"687d3d4b9ccf5-1753038155"}
+[2025-07-20 19:03:06] Processing - Transaction ID: b3780255-cfc6-4316-b5e5-901c7ff2d5f7, Status: REALIZADO, Idempotency: 687d3d4b9ccf5-1753038155
+[2025-07-20 19:03:06] Status mapping: REALIZADO -> PAID
+[2025-07-20 19:03:06] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:03:06] Saque data: {"id":"9","user_id":"63","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:03:06] Status updated: PROCESSING -> PAID for saque ID 9
+[2025-07-20 19:03:06] Transaction committed successfully
+[2025-07-20 19:03:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"b3780255-cfc6-4316-b5e5-901c7ff2d5f7","saque_id":"9","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 19:03:06"}
+[2025-07-20 19:34:59] === WEBHOOK ACCESSED ===
+[2025-07-20 19:34:59] Method: POST
+[2025-07-20 19:34:59] User-Agent: Unknown
+[2025-07-20 19:34:59] Raw Input: {"id":"80657b28-9385-4a9a-bc0b-d82dd81e0059","movementDate":"2025-07-20T16:34:59.5492212Z","status":"EM PROCESSAMENTO","valor":30.0,"idempotencyKey":"687d44e3598ec-1753040099"}
+[2025-07-20 19:34:59] Parsed webhook data: {"id":"80657b28-9385-4a9a-bc0b-d82dd81e0059","movementDate":"2025-07-20T16:34:59.5492212Z","status":"EM PROCESSAMENTO","valor":30,"idempotencyKey":"687d44e3598ec-1753040099"}
+[2025-07-20 19:34:59] Processing - Transaction ID: 80657b28-9385-4a9a-bc0b-d82dd81e0059, Status: EM PROCESSAMENTO, Idempotency: 687d44e3598ec-1753040099
+[2025-07-20 19:34:59] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 19:34:59] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:34:59] Saque data: {"id":"11","user_id":"67","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:34:59] Status já atualizado: PROCESSING
+[2025-07-20 19:35:02] === WEBHOOK ACCESSED ===
+[2025-07-20 19:35:02] Method: POST
+[2025-07-20 19:35:02] User-Agent: Unknown
+[2025-07-20 19:35:02] Raw Input: {"id":"e0eabeab-e6e3-4b98-9979-a7dd6fdcd745","movementDate":"2025-07-20T16:35:01.7186775Z","status":"EM PROCESSAMENTO","valor":40.0,"idempotencyKey":"687d44e57f9c5-1753040101"}
+[2025-07-20 19:35:02] Parsed webhook data: {"id":"e0eabeab-e6e3-4b98-9979-a7dd6fdcd745","movementDate":"2025-07-20T16:35:01.7186775Z","status":"EM PROCESSAMENTO","valor":40,"idempotencyKey":"687d44e57f9c5-1753040101"}
+[2025-07-20 19:35:02] Processing - Transaction ID: e0eabeab-e6e3-4b98-9979-a7dd6fdcd745, Status: EM PROCESSAMENTO, Idempotency: 687d44e57f9c5-1753040101
+[2025-07-20 19:35:02] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 19:35:02] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:35:02] Saque data: {"id":"10","user_id":"54","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:35:02] Status já atualizado: PROCESSING
+[2025-07-20 19:35:05] === WEBHOOK ACCESSED ===
+[2025-07-20 19:35:05] Method: POST
+[2025-07-20 19:35:05] User-Agent: Unknown
+[2025-07-20 19:35:05] Raw Input: {"recebedor":{"cpfCnpj":"03815435447","nome":"Iraquitan José do nascimento"},"id":"80657b28-9385-4a9a-bc0b-d82dd81e0059","movementDate":"2025-07-20T16:35:05.3004049Z","status":"REALIZADO","valor":30.0,"idempotencyKey":"687d44e3598ec-1753040099"}
+[2025-07-20 19:35:05] Parsed webhook data: {"recebedor":{"cpfCnpj":"03815435447","nome":"Iraquitan Jos\u00e9 do nascimento"},"id":"80657b28-9385-4a9a-bc0b-d82dd81e0059","movementDate":"2025-07-20T16:35:05.3004049Z","status":"REALIZADO","valor":30,"idempotencyKey":"687d44e3598ec-1753040099"}
+[2025-07-20 19:35:05] Processing - Transaction ID: 80657b28-9385-4a9a-bc0b-d82dd81e0059, Status: REALIZADO, Idempotency: 687d44e3598ec-1753040099
+[2025-07-20 19:35:05] Status mapping: REALIZADO -> PAID
+[2025-07-20 19:35:05] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:35:05] Saque data: {"id":"11","user_id":"67","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:35:05] Status updated: PROCESSING -> PAID for saque ID 11
+[2025-07-20 19:35:05] Transaction committed successfully
+[2025-07-20 19:35:05] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"80657b28-9385-4a9a-bc0b-d82dd81e0059","saque_id":"11","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 19:35:05"}
+[2025-07-20 19:35:39] === WEBHOOK ACCESSED ===
+[2025-07-20 19:35:39] Method: POST
+[2025-07-20 19:35:39] User-Agent: Unknown
+[2025-07-20 19:35:39] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"e0eabeab-e6e3-4b98-9979-a7dd6fdcd745","movementDate":"2025-07-20T16:35:38.8292896Z","status":"REALIZADO","valor":40.0,"idempotencyKey":"687d44e57f9c5-1753040101"}
+[2025-07-20 19:35:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"e0eabeab-e6e3-4b98-9979-a7dd6fdcd745","movementDate":"2025-07-20T16:35:38.8292896Z","status":"REALIZADO","valor":40,"idempotencyKey":"687d44e57f9c5-1753040101"}
+[2025-07-20 19:35:39] Processing - Transaction ID: e0eabeab-e6e3-4b98-9979-a7dd6fdcd745, Status: REALIZADO, Idempotency: 687d44e57f9c5-1753040101
+[2025-07-20 19:35:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 19:35:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:35:39] Saque data: {"id":"10","user_id":"54","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:35:39] Status updated: PROCESSING -> PAID for saque ID 10
+[2025-07-20 19:35:39] Transaction committed successfully
+[2025-07-20 19:35:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"e0eabeab-e6e3-4b98-9979-a7dd6fdcd745","saque_id":"10","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 19:35:39"}
+[2025-07-20 19:45:45] === WEBHOOK ACCESSED ===
+[2025-07-20 19:45:45] Method: POST
+[2025-07-20 19:45:45] User-Agent: Unknown
+[2025-07-20 19:45:45] Raw Input: {"id":"78baa7ee-84a5-4c1c-8356-d4c12707e9fb","movementDate":"2025-07-20T16:45:45.3152023Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"687d47691fb1d-1753040745"}
+[2025-07-20 19:45:45] Parsed webhook data: {"id":"78baa7ee-84a5-4c1c-8356-d4c12707e9fb","movementDate":"2025-07-20T16:45:45.3152023Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"687d47691fb1d-1753040745"}
+[2025-07-20 19:45:45] Processing - Transaction ID: 78baa7ee-84a5-4c1c-8356-d4c12707e9fb, Status: EM PROCESSAMENTO, Idempotency: 687d47691fb1d-1753040745
+[2025-07-20 19:45:45] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 19:45:45] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:45:45] Saque data: {"id":"12","user_id":"73","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:45:45] Status já atualizado: PROCESSING
+[2025-07-20 19:46:05] === WEBHOOK ACCESSED ===
+[2025-07-20 19:46:05] Method: POST
+[2025-07-20 19:46:05] User-Agent: Unknown
+[2025-07-20 19:46:05] Raw Input: {"recebedor":{"cpfCnpj":"03808866268","nome":"Dagoberto Ezequiel Espinosa Rodriguez"},"id":"78baa7ee-84a5-4c1c-8356-d4c12707e9fb","movementDate":"2025-07-20T16:46:05.1963964Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"687d47691fb1d-1753040745"}
+[2025-07-20 19:46:05] Parsed webhook data: {"recebedor":{"cpfCnpj":"03808866268","nome":"Dagoberto Ezequiel Espinosa Rodriguez"},"id":"78baa7ee-84a5-4c1c-8356-d4c12707e9fb","movementDate":"2025-07-20T16:46:05.1963964Z","status":"REALIZADO","valor":10,"idempotencyKey":"687d47691fb1d-1753040745"}
+[2025-07-20 19:46:05] Processing - Transaction ID: 78baa7ee-84a5-4c1c-8356-d4c12707e9fb, Status: REALIZADO, Idempotency: 687d47691fb1d-1753040745
+[2025-07-20 19:46:05] Status mapping: REALIZADO -> PAID
+[2025-07-20 19:46:05] Search result: Found via transaction_id_digitopay
+[2025-07-20 19:46:05] Saque data: {"id":"12","user_id":"73","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 19:46:05] Status updated: PROCESSING -> PAID for saque ID 12
+[2025-07-20 19:46:05] Transaction committed successfully
+[2025-07-20 19:46:05] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"78baa7ee-84a5-4c1c-8356-d4c12707e9fb","saque_id":"12","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 19:46:05"}
+[2025-07-20 20:03:29] === WEBHOOK ACCESSED ===
+[2025-07-20 20:03:29] Method: POST
+[2025-07-20 20:03:29] User-Agent: Unknown
+[2025-07-20 20:03:29] Raw Input: {"id":"ee66bfbd-c654-46fe-8ff5-f7fcf504ac56","movementDate":"2025-07-20T17:03:29.0237219Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d4b90ce735-1753041808"}
+[2025-07-20 20:03:29] Parsed webhook data: {"id":"ee66bfbd-c654-46fe-8ff5-f7fcf504ac56","movementDate":"2025-07-20T17:03:29.0237219Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d4b90ce735-1753041808"}
+[2025-07-20 20:03:29] Processing - Transaction ID: ee66bfbd-c654-46fe-8ff5-f7fcf504ac56, Status: EM PROCESSAMENTO, Idempotency: 687d4b90ce735-1753041808
+[2025-07-20 20:03:29] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 20:03:29] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:03:29] Saque data: {"id":"13","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:03:29] Status já atualizado: PROCESSING
+[2025-07-20 20:03:39] === WEBHOOK ACCESSED ===
+[2025-07-20 20:03:39] Method: POST
+[2025-07-20 20:03:39] User-Agent: Unknown
+[2025-07-20 20:03:39] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"ee66bfbd-c654-46fe-8ff5-f7fcf504ac56","movementDate":"2025-07-20T17:03:39.0055854Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687d4b90ce735-1753041808"}
+[2025-07-20 20:03:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"ee66bfbd-c654-46fe-8ff5-f7fcf504ac56","movementDate":"2025-07-20T17:03:39.0055854Z","status":"REALIZADO","valor":20,"idempotencyKey":"687d4b90ce735-1753041808"}
+[2025-07-20 20:03:39] Processing - Transaction ID: ee66bfbd-c654-46fe-8ff5-f7fcf504ac56, Status: REALIZADO, Idempotency: 687d4b90ce735-1753041808
+[2025-07-20 20:03:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 20:03:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:03:39] Saque data: {"id":"13","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:03:39] Status updated: PROCESSING -> PAID for saque ID 13
+[2025-07-20 20:03:39] Transaction committed successfully
+[2025-07-20 20:03:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"ee66bfbd-c654-46fe-8ff5-f7fcf504ac56","saque_id":"13","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 20:03:39"}
+[2025-07-20 20:09:32] === WEBHOOK ACCESSED ===
+[2025-07-20 20:09:32] Method: POST
+[2025-07-20 20:09:32] User-Agent: Unknown
+[2025-07-20 20:09:32] Raw Input: {"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:09:32.2317197Z","status":"EM PROCESSAMENTO","valor":70.0,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:09:32] Parsed webhook data: {"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:09:32.2317197Z","status":"EM PROCESSAMENTO","valor":70,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:09:32] Processing - Transaction ID: 9b144058-d98c-435a-a1ff-f9c022965c84, Status: EM PROCESSAMENTO, Idempotency: 687d4cfc06ac0-1753042172
+[2025-07-20 20:09:32] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 20:09:32] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:09:32] Saque data: {"id":"14","user_id":"54","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:09:32] Status já atualizado: PROCESSING
+[2025-07-20 20:09:33] === WEBHOOK ACCESSED ===
+[2025-07-20 20:09:33] Method: POST
+[2025-07-20 20:09:33] User-Agent: Unknown
+[2025-07-20 20:09:33] Raw Input: {"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:09:32.1792739Z","status":"ANALISE","valor":70.0,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:09:33] Parsed webhook data: {"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:09:32.1792739Z","status":"ANALISE","valor":70,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:09:33] Processing - Transaction ID: 9b144058-d98c-435a-a1ff-f9c022965c84, Status: ANALISE, Idempotency: 687d4cfc06ac0-1753042172
+[2025-07-20 20:09:33] Status mapping: ANALISE -> PROCESSING
+[2025-07-20 20:09:33] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:09:33] Saque data: {"id":"14","user_id":"54","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:09:33] Status já atualizado: PROCESSING
+[2025-07-20 20:11:17] === WEBHOOK ACCESSED ===
+[2025-07-20 20:11:17] Method: POST
+[2025-07-20 20:11:17] User-Agent: Unknown
+[2025-07-20 20:11:17] Raw Input: {"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:11:17.1770621Z","status":"EM PROCESSAMENTO","valor":70.0,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:11:17] Parsed webhook data: {"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:11:17.1770621Z","status":"EM PROCESSAMENTO","valor":70,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:11:17] Processing - Transaction ID: 9b144058-d98c-435a-a1ff-f9c022965c84, Status: EM PROCESSAMENTO, Idempotency: 687d4cfc06ac0-1753042172
+[2025-07-20 20:11:17] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 20:11:17] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:11:17] Saque data: {"id":"14","user_id":"54","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:11:17] Status já atualizado: PROCESSING
+[2025-07-20 20:11:39] === WEBHOOK ACCESSED ===
+[2025-07-20 20:11:39] Method: POST
+[2025-07-20 20:11:39] User-Agent: Unknown
+[2025-07-20 20:11:39] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:11:39.110135Z","status":"REALIZADO","valor":70.0,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:11:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"9b144058-d98c-435a-a1ff-f9c022965c84","movementDate":"2025-07-20T17:11:39.110135Z","status":"REALIZADO","valor":70,"idempotencyKey":"687d4cfc06ac0-1753042172"}
+[2025-07-20 20:11:39] Processing - Transaction ID: 9b144058-d98c-435a-a1ff-f9c022965c84, Status: REALIZADO, Idempotency: 687d4cfc06ac0-1753042172
+[2025-07-20 20:11:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 20:11:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:11:39] Saque data: {"id":"14","user_id":"54","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:11:39] Status updated: PROCESSING -> PAID for saque ID 14
+[2025-07-20 20:11:39] Transaction committed successfully
+[2025-07-20 20:11:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"9b144058-d98c-435a-a1ff-f9c022965c84","saque_id":"14","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 20:11:39"}
+[2025-07-20 20:57:29] === WEBHOOK ACCESSED ===
+[2025-07-20 20:57:29] Method: POST
+[2025-07-20 20:57:29] User-Agent: Unknown
+[2025-07-20 20:57:29] Raw Input: {"id":"76eba43d-1412-4084-ac7e-c45969fc648f","movementDate":"2025-07-20T17:57:29.1283636Z","status":"EM PROCESSAMENTO","valor":40.0,"idempotencyKey":"687d5838e4a75-1753045048"}
+[2025-07-20 20:57:29] Parsed webhook data: {"id":"76eba43d-1412-4084-ac7e-c45969fc648f","movementDate":"2025-07-20T17:57:29.1283636Z","status":"EM PROCESSAMENTO","valor":40,"idempotencyKey":"687d5838e4a75-1753045048"}
+[2025-07-20 20:57:29] Processing - Transaction ID: 76eba43d-1412-4084-ac7e-c45969fc648f, Status: EM PROCESSAMENTO, Idempotency: 687d5838e4a75-1753045048
+[2025-07-20 20:57:29] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 20:57:29] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:57:29] Saque data: {"id":"15","user_id":"71","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:57:29] Status já atualizado: PROCESSING
+[2025-07-20 20:57:39] === WEBHOOK ACCESSED ===
+[2025-07-20 20:57:39] Method: POST
+[2025-07-20 20:57:39] User-Agent: Unknown
+[2025-07-20 20:57:39] Raw Input: {"recebedor":{"cpfCnpj":"50800260813","nome":"Felype moura"},"id":"76eba43d-1412-4084-ac7e-c45969fc648f","movementDate":"2025-07-20T17:57:39.3201398Z","status":"REALIZADO","valor":40.0,"idempotencyKey":"687d5838e4a75-1753045048"}
+[2025-07-20 20:57:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"50800260813","nome":"Felype moura"},"id":"76eba43d-1412-4084-ac7e-c45969fc648f","movementDate":"2025-07-20T17:57:39.3201398Z","status":"REALIZADO","valor":40,"idempotencyKey":"687d5838e4a75-1753045048"}
+[2025-07-20 20:57:39] Processing - Transaction ID: 76eba43d-1412-4084-ac7e-c45969fc648f, Status: REALIZADO, Idempotency: 687d5838e4a75-1753045048
+[2025-07-20 20:57:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 20:57:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 20:57:39] Saque data: {"id":"15","user_id":"71","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 20:57:39] Status updated: PROCESSING -> PAID for saque ID 15
+[2025-07-20 20:57:39] Transaction committed successfully
+[2025-07-20 20:57:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"76eba43d-1412-4084-ac7e-c45969fc648f","saque_id":"15","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 20:57:39"}
+[2025-07-20 21:08:12] === WEBHOOK ACCESSED ===
+[2025-07-20 21:08:12] Method: POST
+[2025-07-20 21:08:12] User-Agent: Unknown
+[2025-07-20 21:08:12] Raw Input: {"id":"18680c75-9c97-4d6f-8bc6-010aa6c069e9","movementDate":"2025-07-20T18:08:10.7571398Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d5aba8b8a3-1753045690"}
+[2025-07-20 21:08:12] Parsed webhook data: {"id":"18680c75-9c97-4d6f-8bc6-010aa6c069e9","movementDate":"2025-07-20T18:08:10.7571398Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d5aba8b8a3-1753045690"}
+[2025-07-20 21:08:12] Processing - Transaction ID: 18680c75-9c97-4d6f-8bc6-010aa6c069e9, Status: EM PROCESSAMENTO, Idempotency: 687d5aba8b8a3-1753045690
+[2025-07-20 21:08:12] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 21:08:12] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:08:12] Saque data: {"id":"18","user_id":"71","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:08:12] Status já atualizado: PROCESSING
+[2025-07-20 21:08:28] === WEBHOOK ACCESSED ===
+[2025-07-20 21:08:28] Method: POST
+[2025-07-20 21:08:28] User-Agent: Unknown
+[2025-07-20 21:08:28] Raw Input: {"id":"ffe438b8-cb32-4eaa-bd8f-cd517563328b","movementDate":"2025-07-20T18:08:27.9536317Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"687d5acbb92d9-1753045707"}
+[2025-07-20 21:08:28] Parsed webhook data: {"id":"ffe438b8-cb32-4eaa-bd8f-cd517563328b","movementDate":"2025-07-20T18:08:27.9536317Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"687d5acbb92d9-1753045707"}
+[2025-07-20 21:08:28] Processing - Transaction ID: ffe438b8-cb32-4eaa-bd8f-cd517563328b, Status: EM PROCESSAMENTO, Idempotency: 687d5acbb92d9-1753045707
+[2025-07-20 21:08:28] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 21:08:28] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:08:28] Saque data: {"id":"17","user_id":"85","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:08:28] Status já atualizado: PROCESSING
+[2025-07-20 21:08:39] === WEBHOOK ACCESSED ===
+[2025-07-20 21:08:39] Method: POST
+[2025-07-20 21:08:39] User-Agent: Unknown
+[2025-07-20 21:08:39] Raw Input: {"recebedor":{"cpfCnpj":"50800260813","nome":"Felype moura"},"id":"18680c75-9c97-4d6f-8bc6-010aa6c069e9","movementDate":"2025-07-20T18:08:38.7778698Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687d5aba8b8a3-1753045690"}
+[2025-07-20 21:08:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"50800260813","nome":"Felype moura"},"id":"18680c75-9c97-4d6f-8bc6-010aa6c069e9","movementDate":"2025-07-20T18:08:38.7778698Z","status":"REALIZADO","valor":20,"idempotencyKey":"687d5aba8b8a3-1753045690"}
+[2025-07-20 21:08:39] Processing - Transaction ID: 18680c75-9c97-4d6f-8bc6-010aa6c069e9, Status: REALIZADO, Idempotency: 687d5aba8b8a3-1753045690
+[2025-07-20 21:08:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 21:08:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:08:39] Saque data: {"id":"18","user_id":"71","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:08:39] Status updated: PROCESSING -> PAID for saque ID 18
+[2025-07-20 21:08:39] Transaction committed successfully
+[2025-07-20 21:08:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"18680c75-9c97-4d6f-8bc6-010aa6c069e9","saque_id":"18","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 21:08:39"}
+[2025-07-20 21:08:39] === WEBHOOK ACCESSED ===
+[2025-07-20 21:08:39] Method: POST
+[2025-07-20 21:08:39] User-Agent: Unknown
+[2025-07-20 21:08:39] Raw Input: {"recebedor":{"cpfCnpj":"11357990910","nome":"ocarlosdados"},"id":"ffe438b8-cb32-4eaa-bd8f-cd517563328b","movementDate":"2025-07-20T18:08:38.9782352Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"687d5acbb92d9-1753045707"}
+[2025-07-20 21:08:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"11357990910","nome":"ocarlosdados"},"id":"ffe438b8-cb32-4eaa-bd8f-cd517563328b","movementDate":"2025-07-20T18:08:38.9782352Z","status":"REALIZADO","valor":10,"idempotencyKey":"687d5acbb92d9-1753045707"}
+[2025-07-20 21:08:39] Processing - Transaction ID: ffe438b8-cb32-4eaa-bd8f-cd517563328b, Status: REALIZADO, Idempotency: 687d5acbb92d9-1753045707
+[2025-07-20 21:08:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 21:08:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:08:39] Saque data: {"id":"17","user_id":"85","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:08:39] Status updated: PROCESSING -> PAID for saque ID 17
+[2025-07-20 21:08:39] Transaction committed successfully
+[2025-07-20 21:08:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"ffe438b8-cb32-4eaa-bd8f-cd517563328b","saque_id":"17","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 21:08:39"}
+[2025-07-20 21:08:41] === WEBHOOK ACCESSED ===
+[2025-07-20 21:08:41] Method: POST
+[2025-07-20 21:08:41] User-Agent: Unknown
+[2025-07-20 21:08:41] Raw Input: {"id":"34e575ce-607f-446e-a4cc-d5e1a428759d","movementDate":"2025-07-20T18:08:41.3134681Z","status":"EM PROCESSAMENTO","valor":40.0,"idempotencyKey":"687d5ad91e53b-1753045721"}
+[2025-07-20 21:08:41] Parsed webhook data: {"id":"34e575ce-607f-446e-a4cc-d5e1a428759d","movementDate":"2025-07-20T18:08:41.3134681Z","status":"EM PROCESSAMENTO","valor":40,"idempotencyKey":"687d5ad91e53b-1753045721"}
+[2025-07-20 21:08:41] Processing - Transaction ID: 34e575ce-607f-446e-a4cc-d5e1a428759d, Status: EM PROCESSAMENTO, Idempotency: 687d5ad91e53b-1753045721
+[2025-07-20 21:08:41] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 21:08:41] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:08:41] Saque data: {"id":"16","user_id":"67","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:08:41] Status já atualizado: PROCESSING
+[2025-07-20 21:09:06] === WEBHOOK ACCESSED ===
+[2025-07-20 21:09:06] Method: POST
+[2025-07-20 21:09:06] User-Agent: Unknown
+[2025-07-20 21:09:06] Raw Input: {"recebedor":{"cpfCnpj":"03815435447","nome":"Iraquitan José do nascimento"},"id":"34e575ce-607f-446e-a4cc-d5e1a428759d","movementDate":"2025-07-20T18:09:05.5787125Z","status":"REALIZADO","valor":40.0,"idempotencyKey":"687d5ad91e53b-1753045721"}
+[2025-07-20 21:09:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"03815435447","nome":"Iraquitan Jos\u00e9 do nascimento"},"id":"34e575ce-607f-446e-a4cc-d5e1a428759d","movementDate":"2025-07-20T18:09:05.5787125Z","status":"REALIZADO","valor":40,"idempotencyKey":"687d5ad91e53b-1753045721"}
+[2025-07-20 21:09:06] Processing - Transaction ID: 34e575ce-607f-446e-a4cc-d5e1a428759d, Status: REALIZADO, Idempotency: 687d5ad91e53b-1753045721
+[2025-07-20 21:09:06] Status mapping: REALIZADO -> PAID
+[2025-07-20 21:09:06] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:09:06] Saque data: {"id":"16","user_id":"67","valor":"40.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:09:06] Status updated: PROCESSING -> PAID for saque ID 16
+[2025-07-20 21:09:06] Transaction committed successfully
+[2025-07-20 21:09:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"34e575ce-607f-446e-a4cc-d5e1a428759d","saque_id":"16","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 21:09:06"}
+[2025-07-20 21:19:14] === WEBHOOK ACCESSED ===
+[2025-07-20 21:19:14] Method: POST
+[2025-07-20 21:19:14] User-Agent: Unknown
+[2025-07-20 21:19:14] Raw Input: {"id":"1141795b-9515-498a-b200-0929a8c936dd","movementDate":"2025-07-20T18:19:13.4684218Z","status":"EM PROCESSAMENTO","valor":30.0,"idempotencyKey":"687d5d512fecf-1753046353"}
+[2025-07-20 21:19:14] Parsed webhook data: {"id":"1141795b-9515-498a-b200-0929a8c936dd","movementDate":"2025-07-20T18:19:13.4684218Z","status":"EM PROCESSAMENTO","valor":30,"idempotencyKey":"687d5d512fecf-1753046353"}
+[2025-07-20 21:19:14] Processing - Transaction ID: 1141795b-9515-498a-b200-0929a8c936dd, Status: EM PROCESSAMENTO, Idempotency: 687d5d512fecf-1753046353
+[2025-07-20 21:19:14] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 21:19:14] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:19:14] Saque data: {"id":"20","user_id":"81","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:19:14] Status já atualizado: PROCESSING
+[2025-07-20 21:19:26] === WEBHOOK ACCESSED ===
+[2025-07-20 21:19:26] Method: POST
+[2025-07-20 21:19:26] User-Agent: Unknown
+[2025-07-20 21:19:26] Raw Input: {"id":"13709fa0-24b9-4156-9a3c-0ded79a55725","movementDate":"2025-07-20T18:19:25.2845546Z","status":"EM PROCESSAMENTO","valor":25.0,"idempotencyKey":"687d5d5d0ba62-1753046365"}
+[2025-07-20 21:19:26] Parsed webhook data: {"id":"13709fa0-24b9-4156-9a3c-0ded79a55725","movementDate":"2025-07-20T18:19:25.2845546Z","status":"EM PROCESSAMENTO","valor":25,"idempotencyKey":"687d5d5d0ba62-1753046365"}
+[2025-07-20 21:19:26] Processing - Transaction ID: 13709fa0-24b9-4156-9a3c-0ded79a55725, Status: EM PROCESSAMENTO, Idempotency: 687d5d5d0ba62-1753046365
+[2025-07-20 21:19:26] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 21:19:26] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:19:26] Saque data: {"id":"19","user_id":"84","valor":"25.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:19:26] Status já atualizado: PROCESSING
+[2025-07-20 21:19:38] === WEBHOOK ACCESSED ===
+[2025-07-20 21:19:38] Method: POST
+[2025-07-20 21:19:38] User-Agent: Unknown
+[2025-07-20 21:19:38] Raw Input: {"recebedor":{"cpfCnpj":"41776682149","nome":"Renan Paula Pereira"},"id":"13709fa0-24b9-4156-9a3c-0ded79a55725","movementDate":"2025-07-20T18:19:38.2487937Z","status":"REALIZADO","valor":25.0,"idempotencyKey":"687d5d5d0ba62-1753046365"}
+[2025-07-20 21:19:38] Parsed webhook data: {"recebedor":{"cpfCnpj":"41776682149","nome":"Renan Paula Pereira"},"id":"13709fa0-24b9-4156-9a3c-0ded79a55725","movementDate":"2025-07-20T18:19:38.2487937Z","status":"REALIZADO","valor":25,"idempotencyKey":"687d5d5d0ba62-1753046365"}
+[2025-07-20 21:19:38] Processing - Transaction ID: 13709fa0-24b9-4156-9a3c-0ded79a55725, Status: REALIZADO, Idempotency: 687d5d5d0ba62-1753046365
+[2025-07-20 21:19:38] Status mapping: REALIZADO -> PAID
+[2025-07-20 21:19:38] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:19:38] Saque data: {"id":"19","user_id":"84","valor":"25.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:19:38] Status updated: PROCESSING -> PAID for saque ID 19
+[2025-07-20 21:19:38] Transaction committed successfully
+[2025-07-20 21:19:38] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"13709fa0-24b9-4156-9a3c-0ded79a55725","saque_id":"19","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 21:19:38"}
+[2025-07-20 21:19:39] === WEBHOOK ACCESSED ===
+[2025-07-20 21:19:39] Method: POST
+[2025-07-20 21:19:39] User-Agent: Unknown
+[2025-07-20 21:19:39] Raw Input: {"recebedor":{"cpfCnpj":"03760105688","nome":"Carmecita Guimaraes"},"id":"1141795b-9515-498a-b200-0929a8c936dd","movementDate":"2025-07-20T18:19:38.4432918Z","status":"REALIZADO","valor":30.0,"idempotencyKey":"687d5d512fecf-1753046353"}
+[2025-07-20 21:19:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"03760105688","nome":"Carmecita Guimaraes"},"id":"1141795b-9515-498a-b200-0929a8c936dd","movementDate":"2025-07-20T18:19:38.4432918Z","status":"REALIZADO","valor":30,"idempotencyKey":"687d5d512fecf-1753046353"}
+[2025-07-20 21:19:39] Processing - Transaction ID: 1141795b-9515-498a-b200-0929a8c936dd, Status: REALIZADO, Idempotency: 687d5d512fecf-1753046353
+[2025-07-20 21:19:39] Status mapping: REALIZADO -> PAID
+[2025-07-20 21:19:39] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:19:39] Saque data: {"id":"20","user_id":"81","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:19:39] Status updated: PROCESSING -> PAID for saque ID 20
+[2025-07-20 21:19:39] Transaction committed successfully
+[2025-07-20 21:19:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"1141795b-9515-498a-b200-0929a8c936dd","saque_id":"20","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 21:19:39"}
+[2025-07-20 21:36:05] === WEBHOOK ACCESSED ===
+[2025-07-20 21:36:05] Method: POST
+[2025-07-20 21:36:05] User-Agent: Unknown
+[2025-07-20 21:36:05] Raw Input: {"id":"ca317e09-3c18-4084-81e3-8972ea2ec461","movementDate":"2025-07-20T18:36:05.3161238Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d61451842c-1753047365"}
+[2025-07-20 21:36:05] Parsed webhook data: {"id":"ca317e09-3c18-4084-81e3-8972ea2ec461","movementDate":"2025-07-20T18:36:05.3161238Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d61451842c-1753047365"}
+[2025-07-20 21:36:05] Processing - Transaction ID: ca317e09-3c18-4084-81e3-8972ea2ec461, Status: EM PROCESSAMENTO, Idempotency: 687d61451842c-1753047365
+[2025-07-20 21:36:05] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 21:36:05] Search result: Found via transaction_id_digitopay
+[2025-07-20 21:36:05] Saque data: {"id":"22","user_id":"90","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 21:36:05] Status já atualizado: PROCESSING
+[2025-07-20 22:57:28] === WEBHOOK ACCESSED ===
+[2025-07-20 22:57:28] Method: POST
+[2025-07-20 22:57:28] User-Agent: Unknown
+[2025-07-20 22:57:28] Raw Input: {"id":"31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7","movementDate":"2025-07-20T19:57:28.2915536Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d74581642c-1753052248"}
+[2025-07-20 22:57:28] Parsed webhook data: {"id":"31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7","movementDate":"2025-07-20T19:57:28.2915536Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d74581642c-1753052248"}
+[2025-07-20 22:57:28] Processing - Transaction ID: 31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7, Status: EM PROCESSAMENTO, Idempotency: 687d74581642c-1753052248
+[2025-07-20 22:57:28] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 22:57:28] Search result: Found via transaction_id_digitopay
+[2025-07-20 22:57:28] Saque data: {"id":"23","user_id":"106","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 22:57:28] Status já atualizado: PROCESSING
+[2025-07-20 22:57:31] === WEBHOOK ACCESSED ===
+[2025-07-20 22:57:31] Method: POST
+[2025-07-20 22:57:31] User-Agent: Unknown
+[2025-07-20 22:57:31] Raw Input: {"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T19:57:31.0832856Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-20 22:57:31] Parsed webhook data: {"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T19:57:31.0832856Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-20 22:57:31] Processing - Transaction ID: 5657c6b4-cada-4330-8666-59ac7094cbe5, Status: EM PROCESSAMENTO, Idempotency: 687d745ad6162-1753052250
+[2025-07-20 22:57:31] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 22:57:31] Search result: Found via transaction_id_digitopay
+[2025-07-20 22:57:31] Saque data: {"id":"24","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 22:57:31] Status já atualizado: PROCESSING
+[2025-07-20 22:57:31] === WEBHOOK ACCESSED ===
+[2025-07-20 22:57:31] Method: POST
+[2025-07-20 22:57:31] User-Agent: Unknown
+[2025-07-20 22:57:31] Raw Input: {"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T19:57:31.0303046Z","status":"ANALISE","valor":20.0,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-20 22:57:31] Parsed webhook data: {"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T19:57:31.0303046Z","status":"ANALISE","valor":20,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-20 22:57:31] Processing - Transaction ID: 5657c6b4-cada-4330-8666-59ac7094cbe5, Status: ANALISE, Idempotency: 687d745ad6162-1753052250
+[2025-07-20 22:57:31] Status mapping: ANALISE -> PROCESSING
+[2025-07-20 22:57:31] Search result: Found via transaction_id_digitopay
+[2025-07-20 22:57:31] Saque data: {"id":"24","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 22:57:31] Status já atualizado: PROCESSING
+[2025-07-20 22:57:38] === WEBHOOK ACCESSED ===
+[2025-07-20 22:57:38] Method: POST
+[2025-07-20 22:57:38] User-Agent: Unknown
+[2025-07-20 22:57:38] Raw Input: {"recebedor":{"cpfCnpj":"14775232436","nome":"Deyvid Edson da Silva"},"id":"31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7","movementDate":"2025-07-20T19:57:38.0776108Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687d74581642c-1753052248"}
+[2025-07-20 22:57:38] Parsed webhook data: {"recebedor":{"cpfCnpj":"14775232436","nome":"Deyvid Edson da Silva"},"id":"31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7","movementDate":"2025-07-20T19:57:38.0776108Z","status":"REALIZADO","valor":20,"idempotencyKey":"687d74581642c-1753052248"}
+[2025-07-20 22:57:38] Processing - Transaction ID: 31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7, Status: REALIZADO, Idempotency: 687d74581642c-1753052248
+[2025-07-20 22:57:38] Status mapping: REALIZADO -> PAID
+[2025-07-20 22:57:38] Search result: Found via transaction_id_digitopay
+[2025-07-20 22:57:38] Saque data: {"id":"23","user_id":"106","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 22:57:38] Status updated: PROCESSING -> PAID for saque ID 23
+[2025-07-20 22:57:38] Transaction committed successfully
+[2025-07-20 22:57:38] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"31f5fd57-07c5-4fd8-9a1d-d8e6b27870c7","saque_id":"23","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 22:57:38"}
+[2025-07-20 23:29:12] === WEBHOOK ACCESSED ===
+[2025-07-20 23:29:12] Method: POST
+[2025-07-20 23:29:12] User-Agent: Unknown
+[2025-07-20 23:29:12] Raw Input: {"id":"ca317e09-3c18-4084-81e3-8972ea2ec461","movementDate":"2025-07-20T20:29:11.9834676Z","status":"CANCELADO","valor":20.0,"idempotencyKey":"687d61451842c-1753047365"}
+[2025-07-20 23:29:12] Parsed webhook data: {"id":"ca317e09-3c18-4084-81e3-8972ea2ec461","movementDate":"2025-07-20T20:29:11.9834676Z","status":"CANCELADO","valor":20,"idempotencyKey":"687d61451842c-1753047365"}
+[2025-07-20 23:29:12] Processing - Transaction ID: ca317e09-3c18-4084-81e3-8972ea2ec461, Status: CANCELADO, Idempotency: 687d61451842c-1753047365
+[2025-07-20 23:29:12] Status mapping: CANCELADO -> CANCELLED
+[2025-07-20 23:29:12] Search result: Found via transaction_id_digitopay
+[2025-07-20 23:29:12] Saque data: {"id":"22","user_id":"90","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 23:29:12] Status updated: PROCESSING -> CANCELLED for saque ID 22
+[2025-07-20 23:29:12] Processing refund for failed/cancelled withdrawal
+[2025-07-20 23:29:12] Refund processed: R$ 20.00 returned to user 90
+[2025-07-20 23:29:12] Transaction committed successfully
+[2025-07-20 23:29:12] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"ca317e09-3c18-4084-81e3-8972ea2ec461","saque_id":"22","old_status":"PROCESSING","new_status":"CANCELLED","search_method":"transaction_id_digitopay","timestamp":"2025-07-20 23:29:12"}
+[2025-07-20 23:59:45] === WEBHOOK ACCESSED ===
+[2025-07-20 23:59:45] Method: POST
+[2025-07-20 23:59:45] User-Agent: Unknown
+[2025-07-20 23:59:45] Raw Input: {"id":"042558c9-bcd3-4ca4-b714-d158a4c2c15a","movementDate":"2025-07-20T20:59:45.356199Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d82f1258ba-1753055985"}
+[2025-07-20 23:59:45] Parsed webhook data: {"id":"042558c9-bcd3-4ca4-b714-d158a4c2c15a","movementDate":"2025-07-20T20:59:45.356199Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d82f1258ba-1753055985"}
+[2025-07-20 23:59:45] Processing - Transaction ID: 042558c9-bcd3-4ca4-b714-d158a4c2c15a, Status: EM PROCESSAMENTO, Idempotency: 687d82f1258ba-1753055985
+[2025-07-20 23:59:45] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-20 23:59:45] Search result: Found via transaction_id_digitopay
+[2025-07-20 23:59:45] Saque data: {"id":"27","user_id":"90","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-20 23:59:45] Status já atualizado: PROCESSING
+[2025-07-21 00:00:06] === WEBHOOK ACCESSED ===
+[2025-07-21 00:00:06] Method: POST
+[2025-07-21 00:00:06] User-Agent: Unknown
+[2025-07-21 00:00:06] Raw Input: {"recebedor":{"cpfCnpj":"09713752406","nome":"Diego Pereira de morais"},"id":"042558c9-bcd3-4ca4-b714-d158a4c2c15a","movementDate":"2025-07-20T21:00:06.204669Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687d82f1258ba-1753055985"}
+[2025-07-21 00:00:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"09713752406","nome":"Diego Pereira de morais"},"id":"042558c9-bcd3-4ca4-b714-d158a4c2c15a","movementDate":"2025-07-20T21:00:06.204669Z","status":"REALIZADO","valor":20,"idempotencyKey":"687d82f1258ba-1753055985"}
+[2025-07-21 00:00:06] Processing - Transaction ID: 042558c9-bcd3-4ca4-b714-d158a4c2c15a, Status: REALIZADO, Idempotency: 687d82f1258ba-1753055985
+[2025-07-21 00:00:06] Status mapping: REALIZADO -> PAID
+[2025-07-21 00:00:06] Search result: Found via transaction_id_digitopay
+[2025-07-21 00:00:06] Saque data: {"id":"27","user_id":"90","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 00:00:06] Status updated: PROCESSING -> PAID for saque ID 27
+[2025-07-21 00:00:06] Transaction committed successfully
+[2025-07-21 00:00:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"042558c9-bcd3-4ca4-b714-d158a4c2c15a","saque_id":"27","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 00:00:06"}
+[2025-07-21 00:01:08] === WEBHOOK ACCESSED ===
+[2025-07-21 00:01:08] Method: POST
+[2025-07-21 00:01:08] User-Agent: Unknown
+[2025-07-21 00:01:08] Raw Input: {"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T21:01:07.5552972Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-21 00:01:08] Parsed webhook data: {"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T21:01:07.5552972Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-21 00:01:08] Processing - Transaction ID: 5657c6b4-cada-4330-8666-59ac7094cbe5, Status: EM PROCESSAMENTO, Idempotency: 687d745ad6162-1753052250
+[2025-07-21 00:01:08] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 00:01:08] Search result: Found via transaction_id_digitopay
+[2025-07-21 00:01:08] Saque data: {"id":"24","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 00:01:08] Status já atualizado: PROCESSING
+[2025-07-21 00:01:39] === WEBHOOK ACCESSED ===
+[2025-07-21 00:01:39] Method: POST
+[2025-07-21 00:01:39] User-Agent: Unknown
+[2025-07-21 00:01:39] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T21:01:38.9308635Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-21 00:01:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"5657c6b4-cada-4330-8666-59ac7094cbe5","movementDate":"2025-07-20T21:01:38.9308635Z","status":"REALIZADO","valor":20,"idempotencyKey":"687d745ad6162-1753052250"}
+[2025-07-21 00:01:39] Processing - Transaction ID: 5657c6b4-cada-4330-8666-59ac7094cbe5, Status: REALIZADO, Idempotency: 687d745ad6162-1753052250
+[2025-07-21 00:01:39] Status mapping: REALIZADO -> PAID
+[2025-07-21 00:01:39] Search result: Found via transaction_id_digitopay
+[2025-07-21 00:01:39] Saque data: {"id":"24","user_id":"54","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 00:01:39] Status updated: PROCESSING -> PAID for saque ID 24
+[2025-07-21 00:01:39] Transaction committed successfully
+[2025-07-21 00:01:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"5657c6b4-cada-4330-8666-59ac7094cbe5","saque_id":"24","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 00:01:39"}
+[2025-07-21 06:59:44] === WEBHOOK ACCESSED ===
+[2025-07-21 06:59:44] Method: POST
+[2025-07-21 06:59:44] User-Agent: Unknown
+[2025-07-21 06:59:44] Raw Input: {"id":"f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d","movementDate":"2025-07-21T03:59:43.9124986Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687de55fb409b-1753081183"}
+[2025-07-21 06:59:44] Parsed webhook data: {"id":"f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d","movementDate":"2025-07-21T03:59:43.9124986Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687de55fb409b-1753081183"}
+[2025-07-21 06:59:44] Processing - Transaction ID: f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d, Status: EM PROCESSAMENTO, Idempotency: 687de55fb409b-1753081183
+[2025-07-21 06:59:44] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 06:59:44] Search result: Found via transaction_id_digitopay
+[2025-07-21 06:59:44] Saque data: {"id":"28","user_id":"125","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 06:59:44] Status já atualizado: PROCESSING
+[2025-07-21 06:59:51] === WEBHOOK ACCESSED ===
+[2025-07-21 06:59:51] Method: POST
+[2025-07-21 06:59:51] User-Agent: Unknown
+[2025-07-21 06:59:51] Raw Input: {"id":"a72359ea-8e3e-4416-9478-f363c21a2a04","movementDate":"2025-07-21T03:59:50.9077243Z","status":"EM PROCESSAMENTO","valor":30.0,"idempotencyKey":"687de566b61b0-1753081190"}
+[2025-07-21 06:59:51] Parsed webhook data: {"id":"a72359ea-8e3e-4416-9478-f363c21a2a04","movementDate":"2025-07-21T03:59:50.9077243Z","status":"EM PROCESSAMENTO","valor":30,"idempotencyKey":"687de566b61b0-1753081190"}
+[2025-07-21 06:59:51] Processing - Transaction ID: a72359ea-8e3e-4416-9478-f363c21a2a04, Status: EM PROCESSAMENTO, Idempotency: 687de566b61b0-1753081190
+[2025-07-21 06:59:51] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 06:59:51] Search result: Found via transaction_id_digitopay
+[2025-07-21 06:59:51] Saque data: {"id":"30","user_id":"136","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 06:59:51] Status já atualizado: PROCESSING
+[2025-07-21 07:00:06] === WEBHOOK ACCESSED ===
+[2025-07-21 07:00:06] Method: POST
+[2025-07-21 07:00:06] User-Agent: Unknown
+[2025-07-21 07:00:06] Raw Input: {"recebedor":{"cpfCnpj":"15502980464","nome":"Joao Vitor"},"id":"a72359ea-8e3e-4416-9478-f363c21a2a04","movementDate":"2025-07-21T04:00:05.5020004Z","status":"REALIZADO","valor":30.0,"idempotencyKey":"687de566b61b0-1753081190"}
+[2025-07-21 07:00:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"15502980464","nome":"Joao Vitor"},"id":"a72359ea-8e3e-4416-9478-f363c21a2a04","movementDate":"2025-07-21T04:00:05.5020004Z","status":"REALIZADO","valor":30,"idempotencyKey":"687de566b61b0-1753081190"}
+[2025-07-21 07:00:06] Processing - Transaction ID: a72359ea-8e3e-4416-9478-f363c21a2a04, Status: REALIZADO, Idempotency: 687de566b61b0-1753081190
+[2025-07-21 07:00:06] Status mapping: REALIZADO -> PAID
+[2025-07-21 07:00:06] Search result: Found via transaction_id_digitopay
+[2025-07-21 07:00:06] Saque data: {"id":"30","user_id":"136","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 07:00:06] Status updated: PROCESSING -> PAID for saque ID 30
+[2025-07-21 07:00:06] Transaction committed successfully
+[2025-07-21 07:00:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a72359ea-8e3e-4416-9478-f363c21a2a04","saque_id":"30","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 07:00:06"}
+[2025-07-21 07:00:07] === WEBHOOK ACCESSED ===
+[2025-07-21 07:00:07] Method: POST
+[2025-07-21 07:00:07] User-Agent: Unknown
+[2025-07-21 07:00:07] Raw Input: {"recebedor":{"cpfCnpj":"17493928444","nome":"Kaikee"},"id":"f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d","movementDate":"2025-07-21T04:00:05.7698575Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687de55fb409b-1753081183"}
+[2025-07-21 07:00:07] Parsed webhook data: {"recebedor":{"cpfCnpj":"17493928444","nome":"Kaikee"},"id":"f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d","movementDate":"2025-07-21T04:00:05.7698575Z","status":"REALIZADO","valor":20,"idempotencyKey":"687de55fb409b-1753081183"}
+[2025-07-21 07:00:07] Processing - Transaction ID: f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d, Status: REALIZADO, Idempotency: 687de55fb409b-1753081183
+[2025-07-21 07:00:07] Status mapping: REALIZADO -> PAID
+[2025-07-21 07:00:07] Search result: Found via transaction_id_digitopay
+[2025-07-21 07:00:07] Saque data: {"id":"28","user_id":"125","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 07:00:07] Status updated: PROCESSING -> PAID for saque ID 28
+[2025-07-21 07:00:07] Transaction committed successfully
+[2025-07-21 07:00:07] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"f7e9ec73-b97e-4f6b-aab9-e2a2b2c1ff3d","saque_id":"28","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 07:00:07"}
+[2025-07-21 12:17:19] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:19] Method: POST
+[2025-07-21 12:17:19] User-Agent: Unknown
+[2025-07-21 12:17:19] Raw Input: {"id":"e27769fb-b181-4680-acf9-cc6b3da58620","movementDate":"2025-07-21T09:17:19.1797298Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687e2fcef39a0-1753100238"}
+[2025-07-21 12:17:19] Parsed webhook data: {"id":"e27769fb-b181-4680-acf9-cc6b3da58620","movementDate":"2025-07-21T09:17:19.1797298Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687e2fcef39a0-1753100238"}
+[2025-07-21 12:17:19] Processing - Transaction ID: e27769fb-b181-4680-acf9-cc6b3da58620, Status: EM PROCESSAMENTO, Idempotency: 687e2fcef39a0-1753100238
+[2025-07-21 12:17:19] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 12:17:19] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:19] Saque data: {"id":"34","user_id":"145","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:19] Status já atualizado: PROCESSING
+[2025-07-21 12:17:23] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:23] Method: POST
+[2025-07-21 12:17:23] User-Agent: Unknown
+[2025-07-21 12:17:23] Raw Input: {"id":"a8c1ba01-7247-4c02-b60e-83741ae4c050","movementDate":"2025-07-21T09:17:22.5861596Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687e2fd266bd2-1753100242"}
+[2025-07-21 12:17:23] Parsed webhook data: {"id":"a8c1ba01-7247-4c02-b60e-83741ae4c050","movementDate":"2025-07-21T09:17:22.5861596Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687e2fd266bd2-1753100242"}
+[2025-07-21 12:17:23] Processing - Transaction ID: a8c1ba01-7247-4c02-b60e-83741ae4c050, Status: EM PROCESSAMENTO, Idempotency: 687e2fd266bd2-1753100242
+[2025-07-21 12:17:23] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 12:17:23] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:23] Saque data: {"id":"33","user_id":"168","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:23] Status já atualizado: PROCESSING
+[2025-07-21 12:17:28] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:28] Method: POST
+[2025-07-21 12:17:28] User-Agent: Unknown
+[2025-07-21 12:17:28] Raw Input: {"id":"023ec373-5be8-4109-8d49-983147ca8a17","movementDate":"2025-07-21T09:17:27.7401322Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"687e2fd786f33-1753100247"}
+[2025-07-21 12:17:28] Parsed webhook data: {"id":"023ec373-5be8-4109-8d49-983147ca8a17","movementDate":"2025-07-21T09:17:27.7401322Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"687e2fd786f33-1753100247"}
+[2025-07-21 12:17:28] Processing - Transaction ID: 023ec373-5be8-4109-8d49-983147ca8a17, Status: EM PROCESSAMENTO, Idempotency: 687e2fd786f33-1753100247
+[2025-07-21 12:17:28] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 12:17:28] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:28] Saque data: {"id":"31","user_id":"159","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:28] Status já atualizado: PROCESSING
+[2025-07-21 12:17:35] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:35] Method: POST
+[2025-07-21 12:17:35] User-Agent: Unknown
+[2025-07-21 12:17:35] Raw Input: {"id":"699806d6-0068-4503-8fe1-fc38dd490a7f","movementDate":"2025-07-21T09:17:35.0850835Z","status":"EM PROCESSAMENTO","valor":13.0,"idempotencyKey":"687e2fdedd4c4-1753100254"}
+[2025-07-21 12:17:35] Parsed webhook data: {"id":"699806d6-0068-4503-8fe1-fc38dd490a7f","movementDate":"2025-07-21T09:17:35.0850835Z","status":"EM PROCESSAMENTO","valor":13,"idempotencyKey":"687e2fdedd4c4-1753100254"}
+[2025-07-21 12:17:35] Processing - Transaction ID: 699806d6-0068-4503-8fe1-fc38dd490a7f, Status: EM PROCESSAMENTO, Idempotency: 687e2fdedd4c4-1753100254
+[2025-07-21 12:17:35] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 12:17:35] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:35] Saque data: {"id":"32","user_id":"166","valor":"13.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:35] Status já atualizado: PROCESSING
+[2025-07-21 12:17:38] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:38] Method: POST
+[2025-07-21 12:17:38] User-Agent: Unknown
+[2025-07-21 12:17:38] Raw Input: {"recebedor":{"cpfCnpj":"10682050407","nome":"Carlos Andre Correia de Siqueira"},"id":"023ec373-5be8-4109-8d49-983147ca8a17","movementDate":"2025-07-21T09:17:38.1713113Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"687e2fd786f33-1753100247"}
+[2025-07-21 12:17:38] Parsed webhook data: {"recebedor":{"cpfCnpj":"10682050407","nome":"Carlos Andre Correia de Siqueira"},"id":"023ec373-5be8-4109-8d49-983147ca8a17","movementDate":"2025-07-21T09:17:38.1713113Z","status":"REALIZADO","valor":10,"idempotencyKey":"687e2fd786f33-1753100247"}
+[2025-07-21 12:17:38] Processing - Transaction ID: 023ec373-5be8-4109-8d49-983147ca8a17, Status: REALIZADO, Idempotency: 687e2fd786f33-1753100247
+[2025-07-21 12:17:38] Status mapping: REALIZADO -> PAID
+[2025-07-21 12:17:38] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:38] Saque data: {"id":"31","user_id":"159","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:38] Status updated: PROCESSING -> PAID for saque ID 31
+[2025-07-21 12:17:38] Transaction committed successfully
+[2025-07-21 12:17:38] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"023ec373-5be8-4109-8d49-983147ca8a17","saque_id":"31","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 12:17:38"}
+[2025-07-21 12:17:39] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:39] Method: POST
+[2025-07-21 12:17:39] User-Agent: Unknown
+[2025-07-21 12:17:39] Raw Input: {"recebedor":{"cpfCnpj":"16452939475","nome":"Jose wemison ferreira reis"},"id":"a8c1ba01-7247-4c02-b60e-83741ae4c050","movementDate":"2025-07-21T09:17:38.5127387Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687e2fd266bd2-1753100242"}
+[2025-07-21 12:17:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"16452939475","nome":"Jose wemison ferreira reis"},"id":"a8c1ba01-7247-4c02-b60e-83741ae4c050","movementDate":"2025-07-21T09:17:38.5127387Z","status":"REALIZADO","valor":20,"idempotencyKey":"687e2fd266bd2-1753100242"}
+[2025-07-21 12:17:39] Processing - Transaction ID: a8c1ba01-7247-4c02-b60e-83741ae4c050, Status: REALIZADO, Idempotency: 687e2fd266bd2-1753100242
+[2025-07-21 12:17:39] Status mapping: REALIZADO -> PAID
+[2025-07-21 12:17:39] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:39] Saque data: {"id":"33","user_id":"168","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:39] Status updated: PROCESSING -> PAID for saque ID 33
+[2025-07-21 12:17:39] Transaction committed successfully
+[2025-07-21 12:17:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a8c1ba01-7247-4c02-b60e-83741ae4c050","saque_id":"33","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 12:17:39"}
+[2025-07-21 12:17:39] === WEBHOOK ACCESSED ===
+[2025-07-21 12:17:39] Method: POST
+[2025-07-21 12:17:39] User-Agent: Unknown
+[2025-07-21 12:17:39] Raw Input: {"recebedor":{"cpfCnpj":"70873290496","nome":"Raquel Lima"},"id":"e27769fb-b181-4680-acf9-cc6b3da58620","movementDate":"2025-07-21T09:17:38.790955Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687e2fcef39a0-1753100238"}
+[2025-07-21 12:17:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"70873290496","nome":"Raquel Lima"},"id":"e27769fb-b181-4680-acf9-cc6b3da58620","movementDate":"2025-07-21T09:17:38.790955Z","status":"REALIZADO","valor":20,"idempotencyKey":"687e2fcef39a0-1753100238"}
+[2025-07-21 12:17:39] Processing - Transaction ID: e27769fb-b181-4680-acf9-cc6b3da58620, Status: REALIZADO, Idempotency: 687e2fcef39a0-1753100238
+[2025-07-21 12:17:39] Status mapping: REALIZADO -> PAID
+[2025-07-21 12:17:39] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:17:39] Saque data: {"id":"34","user_id":"145","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:17:39] Status updated: PROCESSING -> PAID for saque ID 34
+[2025-07-21 12:17:39] Transaction committed successfully
+[2025-07-21 12:17:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"e27769fb-b181-4680-acf9-cc6b3da58620","saque_id":"34","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 12:17:39"}
+[2025-07-21 12:18:06] === WEBHOOK ACCESSED ===
+[2025-07-21 12:18:06] Method: POST
+[2025-07-21 12:18:06] User-Agent: Unknown
+[2025-07-21 12:18:06] Raw Input: {"recebedor":{"cpfCnpj":"12317718446","nome":"Emanuel Matheus Lins dos santos"},"id":"699806d6-0068-4503-8fe1-fc38dd490a7f","movementDate":"2025-07-21T09:18:05.716231Z","status":"REALIZADO","valor":13.0,"idempotencyKey":"687e2fdedd4c4-1753100254"}
+[2025-07-21 12:18:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"12317718446","nome":"Emanuel Matheus Lins dos santos"},"id":"699806d6-0068-4503-8fe1-fc38dd490a7f","movementDate":"2025-07-21T09:18:05.716231Z","status":"REALIZADO","valor":13,"idempotencyKey":"687e2fdedd4c4-1753100254"}
+[2025-07-21 12:18:06] Processing - Transaction ID: 699806d6-0068-4503-8fe1-fc38dd490a7f, Status: REALIZADO, Idempotency: 687e2fdedd4c4-1753100254
+[2025-07-21 12:18:06] Status mapping: REALIZADO -> PAID
+[2025-07-21 12:18:06] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:18:06] Saque data: {"id":"32","user_id":"166","valor":"13.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:18:06] Status updated: PROCESSING -> PAID for saque ID 32
+[2025-07-21 12:18:06] Transaction committed successfully
+[2025-07-21 12:18:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"699806d6-0068-4503-8fe1-fc38dd490a7f","saque_id":"32","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 12:18:06"}
+[2025-07-21 12:53:32] === WEBHOOK ACCESSED ===
+[2025-07-21 12:53:32] Method: POST
+[2025-07-21 12:53:32] User-Agent: Unknown
+[2025-07-21 12:53:32] Raw Input: {"id":"a7f96f1b-961c-4118-8208-5311ea88192c","movementDate":"2025-07-21T09:53:31.328688Z","status":"EM PROCESSAMENTO","valor":45.0,"idempotencyKey":"687e384b22dba-1753102411"}
+[2025-07-21 12:53:32] Parsed webhook data: {"id":"a7f96f1b-961c-4118-8208-5311ea88192c","movementDate":"2025-07-21T09:53:31.328688Z","status":"EM PROCESSAMENTO","valor":45,"idempotencyKey":"687e384b22dba-1753102411"}
+[2025-07-21 12:53:32] Processing - Transaction ID: a7f96f1b-961c-4118-8208-5311ea88192c, Status: EM PROCESSAMENTO, Idempotency: 687e384b22dba-1753102411
+[2025-07-21 12:53:32] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 12:53:32] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:53:32] Saque data: {"id":"36","user_id":"145","valor":"45.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:53:32] Status já atualizado: PROCESSING
+[2025-07-21 12:53:39] === WEBHOOK ACCESSED ===
+[2025-07-21 12:53:39] Method: POST
+[2025-07-21 12:53:39] User-Agent: Unknown
+[2025-07-21 12:53:39] Raw Input: {"recebedor":{"cpfCnpj":"70873290496","nome":"Raquel Lima"},"id":"a7f96f1b-961c-4118-8208-5311ea88192c","movementDate":"2025-07-21T09:53:38.5528519Z","status":"REALIZADO","valor":45.0,"idempotencyKey":"687e384b22dba-1753102411"}
+[2025-07-21 12:53:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"70873290496","nome":"Raquel Lima"},"id":"a7f96f1b-961c-4118-8208-5311ea88192c","movementDate":"2025-07-21T09:53:38.5528519Z","status":"REALIZADO","valor":45,"idempotencyKey":"687e384b22dba-1753102411"}
+[2025-07-21 12:53:39] Processing - Transaction ID: a7f96f1b-961c-4118-8208-5311ea88192c, Status: REALIZADO, Idempotency: 687e384b22dba-1753102411
+[2025-07-21 12:53:39] Status mapping: REALIZADO -> PAID
+[2025-07-21 12:53:39] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:53:39] Saque data: {"id":"36","user_id":"145","valor":"45.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:53:39] Status updated: PROCESSING -> PAID for saque ID 36
+[2025-07-21 12:53:39] Transaction committed successfully
+[2025-07-21 12:53:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a7f96f1b-961c-4118-8208-5311ea88192c","saque_id":"36","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 12:53:39"}
+[2025-07-21 12:57:11] === WEBHOOK ACCESSED ===
+[2025-07-21 12:57:11] Method: POST
+[2025-07-21 12:57:11] User-Agent: Unknown
+[2025-07-21 12:57:11] Raw Input: {"id":"ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd","movementDate":"2025-07-21T09:57:11.1578214Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"687e3926f2a45-1753102630"}
+[2025-07-21 12:57:11] Parsed webhook data: {"id":"ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd","movementDate":"2025-07-21T09:57:11.1578214Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"687e3926f2a45-1753102630"}
+[2025-07-21 12:57:11] Processing - Transaction ID: ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd, Status: EM PROCESSAMENTO, Idempotency: 687e3926f2a45-1753102630
+[2025-07-21 12:57:11] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 12:57:11] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:57:11] Saque data: {"id":"35","user_id":"167","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:57:11] Status já atualizado: PROCESSING
+[2025-07-21 12:57:39] === WEBHOOK ACCESSED ===
+[2025-07-21 12:57:39] Method: POST
+[2025-07-21 12:57:39] User-Agent: Unknown
+[2025-07-21 12:57:39] Raw Input: {"recebedor":{"cpfCnpj":"06542072594","nome":"Vinicius Andrade Dos Santos"},"id":"ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd","movementDate":"2025-07-21T09:57:38.7016581Z","status":"REALIZADO","valor":50.0,"idempotencyKey":"687e3926f2a45-1753102630"}
+[2025-07-21 12:57:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"06542072594","nome":"Vinicius Andrade Dos Santos"},"id":"ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd","movementDate":"2025-07-21T09:57:38.7016581Z","status":"REALIZADO","valor":50,"idempotencyKey":"687e3926f2a45-1753102630"}
+[2025-07-21 12:57:39] Processing - Transaction ID: ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd, Status: REALIZADO, Idempotency: 687e3926f2a45-1753102630
+[2025-07-21 12:57:39] Status mapping: REALIZADO -> PAID
+[2025-07-21 12:57:39] Search result: Found via transaction_id_digitopay
+[2025-07-21 12:57:39] Saque data: {"id":"35","user_id":"167","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 12:57:39] Status updated: PROCESSING -> PAID for saque ID 35
+[2025-07-21 12:57:39] Transaction committed successfully
+[2025-07-21 12:57:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"ad845aa1-72d0-4adb-80e9-04fe4b2ab5fd","saque_id":"35","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 12:57:39"}
+[2025-07-21 13:58:37] === WEBHOOK ACCESSED ===
+[2025-07-21 13:58:37] Method: POST
+[2025-07-21 13:58:37] User-Agent: Unknown
+[2025-07-21 13:58:37] Raw Input: {"id":"782031e1-e740-480f-8906-472deda7af32","movementDate":"2025-07-21T10:58:36.5006261Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687e478c43c74-1753106316"}
+[2025-07-21 13:58:37] Parsed webhook data: {"id":"782031e1-e740-480f-8906-472deda7af32","movementDate":"2025-07-21T10:58:36.5006261Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687e478c43c74-1753106316"}
+[2025-07-21 13:58:37] Processing - Transaction ID: 782031e1-e740-480f-8906-472deda7af32, Status: EM PROCESSAMENTO, Idempotency: 687e478c43c74-1753106316
+[2025-07-21 13:58:37] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 13:58:37] Search result: Found via transaction_id_digitopay
+[2025-07-21 13:58:37] Saque data: {"id":"37","user_id":"174","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 13:58:37] Status já atualizado: PROCESSING
+[2025-07-21 13:59:06] === WEBHOOK ACCESSED ===
+[2025-07-21 13:59:06] Method: POST
+[2025-07-21 13:59:06] User-Agent: Unknown
+[2025-07-21 13:59:06] Raw Input: {"recebedor":{"cpfCnpj":"70900054450","nome":"José roberto"},"id":"782031e1-e740-480f-8906-472deda7af32","movementDate":"2025-07-21T10:59:05.23691Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687e478c43c74-1753106316"}
+[2025-07-21 13:59:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"70900054450","nome":"Jos\u00e9 roberto"},"id":"782031e1-e740-480f-8906-472deda7af32","movementDate":"2025-07-21T10:59:05.23691Z","status":"REALIZADO","valor":20,"idempotencyKey":"687e478c43c74-1753106316"}
+[2025-07-21 13:59:06] Processing - Transaction ID: 782031e1-e740-480f-8906-472deda7af32, Status: REALIZADO, Idempotency: 687e478c43c74-1753106316
+[2025-07-21 13:59:06] Status mapping: REALIZADO -> PAID
+[2025-07-21 13:59:06] Search result: Found via transaction_id_digitopay
+[2025-07-21 13:59:06] Saque data: {"id":"37","user_id":"174","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 13:59:06] Status updated: PROCESSING -> PAID for saque ID 37
+[2025-07-21 13:59:06] Transaction committed successfully
+[2025-07-21 13:59:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"782031e1-e740-480f-8906-472deda7af32","saque_id":"37","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 13:59:06"}
+[2025-07-21 15:05:48] === WEBHOOK ACCESSED ===
+[2025-07-21 15:05:48] Method: POST
+[2025-07-21 15:05:48] User-Agent: Unknown
+[2025-07-21 15:05:48] Raw Input: {"id":"18826e68-5bd0-4f47-9937-c6d359a59a95","movementDate":"2025-07-21T12:05:47.6052276Z","status":"EM PROCESSAMENTO","valor":100.0,"idempotencyKey":"687e574a65999-1753110346"}
+[2025-07-21 15:05:48] Parsed webhook data: {"id":"18826e68-5bd0-4f47-9937-c6d359a59a95","movementDate":"2025-07-21T12:05:47.6052276Z","status":"EM PROCESSAMENTO","valor":100,"idempotencyKey":"687e574a65999-1753110346"}
+[2025-07-21 15:05:48] Processing - Transaction ID: 18826e68-5bd0-4f47-9937-c6d359a59a95, Status: EM PROCESSAMENTO, Idempotency: 687e574a65999-1753110346
+[2025-07-21 15:05:48] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 15:05:48] Search result: Found via transaction_id_digitopay
+[2025-07-21 15:05:48] Saque data: {"id":"38","user_id":"182","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 15:05:48] Status já atualizado: PROCESSING
+[2025-07-21 15:06:07] === WEBHOOK ACCESSED ===
+[2025-07-21 15:06:07] Method: POST
+[2025-07-21 15:06:07] User-Agent: Unknown
+[2025-07-21 15:06:07] Raw Input: {"recebedor":{"cpfCnpj":"13082223435","nome":"Eliseu Felipe"},"id":"18826e68-5bd0-4f47-9937-c6d359a59a95","movementDate":"2025-07-21T12:06:06.4484913Z","status":"REALIZADO","valor":100.0,"idempotencyKey":"687e574a65999-1753110346"}
+[2025-07-21 15:06:07] Parsed webhook data: {"recebedor":{"cpfCnpj":"13082223435","nome":"Eliseu Felipe"},"id":"18826e68-5bd0-4f47-9937-c6d359a59a95","movementDate":"2025-07-21T12:06:06.4484913Z","status":"REALIZADO","valor":100,"idempotencyKey":"687e574a65999-1753110346"}
+[2025-07-21 15:06:07] Processing - Transaction ID: 18826e68-5bd0-4f47-9937-c6d359a59a95, Status: REALIZADO, Idempotency: 687e574a65999-1753110346
+[2025-07-21 15:06:07] Status mapping: REALIZADO -> PAID
+[2025-07-21 15:06:07] Search result: Found via transaction_id_digitopay
+[2025-07-21 15:06:07] Saque data: {"id":"38","user_id":"182","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 15:06:07] Status updated: PROCESSING -> PAID for saque ID 38
+[2025-07-21 15:06:07] Transaction committed successfully
+[2025-07-21 15:06:07] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"18826e68-5bd0-4f47-9937-c6d359a59a95","saque_id":"38","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 15:06:07"}
+[2025-07-21 23:52:37] === WEBHOOK ACCESSED ===
+[2025-07-21 23:52:37] Method: POST
+[2025-07-21 23:52:37] User-Agent: Unknown
+[2025-07-21 23:52:37] Raw Input: {"id":"21ff2f6e-9462-43c2-b274-d9211a325bf2","movementDate":"2025-07-21T20:52:36.9846946Z","status":"EM PROCESSAMENTO","valor":19.0,"idempotencyKey":"687ed2c4c27e9-1753141956"}
+[2025-07-21 23:52:37] Parsed webhook data: {"id":"21ff2f6e-9462-43c2-b274-d9211a325bf2","movementDate":"2025-07-21T20:52:36.9846946Z","status":"EM PROCESSAMENTO","valor":19,"idempotencyKey":"687ed2c4c27e9-1753141956"}
+[2025-07-21 23:52:37] Processing - Transaction ID: 21ff2f6e-9462-43c2-b274-d9211a325bf2, Status: EM PROCESSAMENTO, Idempotency: 687ed2c4c27e9-1753141956
+[2025-07-21 23:52:37] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-21 23:52:37] Search result: Found via transaction_id_digitopay
+[2025-07-21 23:52:37] Saque data: {"id":"39","user_id":"185","valor":"19.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 23:52:37] Status já atualizado: PROCESSING
+[2025-07-21 23:53:07] === WEBHOOK ACCESSED ===
+[2025-07-21 23:53:07] Method: POST
+[2025-07-21 23:53:07] User-Agent: Unknown
+[2025-07-21 23:53:07] Raw Input: {"recebedor":{"cpfCnpj":"70251101401","nome":"Isabella rodrigues de Godoi"},"id":"21ff2f6e-9462-43c2-b274-d9211a325bf2","movementDate":"2025-07-21T20:53:05.8895684Z","status":"REALIZADO","valor":19.0,"idempotencyKey":"687ed2c4c27e9-1753141956"}
+[2025-07-21 23:53:07] Parsed webhook data: {"recebedor":{"cpfCnpj":"70251101401","nome":"Isabella rodrigues de Godoi"},"id":"21ff2f6e-9462-43c2-b274-d9211a325bf2","movementDate":"2025-07-21T20:53:05.8895684Z","status":"REALIZADO","valor":19,"idempotencyKey":"687ed2c4c27e9-1753141956"}
+[2025-07-21 23:53:07] Processing - Transaction ID: 21ff2f6e-9462-43c2-b274-d9211a325bf2, Status: REALIZADO, Idempotency: 687ed2c4c27e9-1753141956
+[2025-07-21 23:53:07] Status mapping: REALIZADO -> PAID
+[2025-07-21 23:53:07] Search result: Found via transaction_id_digitopay
+[2025-07-21 23:53:07] Saque data: {"id":"39","user_id":"185","valor":"19.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-21 23:53:07] Status updated: PROCESSING -> PAID for saque ID 39
+[2025-07-21 23:53:07] Transaction committed successfully
+[2025-07-21 23:53:07] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"21ff2f6e-9462-43c2-b274-d9211a325bf2","saque_id":"39","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-21 23:53:07"}
+[2025-07-22 13:05:10] === WEBHOOK ACCESSED ===
+[2025-07-22 13:05:10] Method: POST
+[2025-07-22 13:05:10] User-Agent: Unknown
+[2025-07-22 13:05:10] Raw Input: {"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:05:10.1851777Z","status":"PENDENTE","valor":356.0,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:05:10] Parsed webhook data: {"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:05:10.1851777Z","status":"PENDENTE","valor":356,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:05:10] Processing - Transaction ID: 286f96e6-a8bb-48ee-8e4a-57680900a159, Status: PENDENTE, Idempotency: 687f8c85d4b31-1753189509
+[2025-07-22 13:05:10] Status mapping: PENDENTE -> PENDING
+[2025-07-22 13:05:10] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:05:10] Saque data: {"id":"40","user_id":"14","valor":"356.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:05:10] Status updated: PROCESSING -> PENDING for saque ID 40
+[2025-07-22 13:05:10] Transaction committed successfully
+[2025-07-22 13:05:10] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"286f96e6-a8bb-48ee-8e4a-57680900a159","saque_id":"40","old_status":"PROCESSING","new_status":"PENDING","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 13:05:10"}
+[2025-07-22 13:05:11] === WEBHOOK ACCESSED ===
+[2025-07-22 13:05:11] Method: POST
+[2025-07-22 13:05:11] User-Agent: Unknown
+[2025-07-22 13:05:11] Raw Input: {"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:05:10.1335612Z","status":"EM PROCESSAMENTO","valor":356.0,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:05:11] Parsed webhook data: {"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:05:10.1335612Z","status":"EM PROCESSAMENTO","valor":356,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:05:11] Processing - Transaction ID: 286f96e6-a8bb-48ee-8e4a-57680900a159, Status: EM PROCESSAMENTO, Idempotency: 687f8c85d4b31-1753189509
+[2025-07-22 13:05:11] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 13:05:11] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:05:11] Saque data: {"id":"40","user_id":"14","valor":"356.00","status":"PENDING","gateway":"digitopay"}
+[2025-07-22 13:05:11] Status updated: PENDING -> PROCESSING for saque ID 40
+[2025-07-22 13:05:11] Transaction committed successfully
+[2025-07-22 13:05:11] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"286f96e6-a8bb-48ee-8e4a-57680900a159","saque_id":"40","old_status":"PENDING","new_status":"PROCESSING","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 13:05:11"}
+[2025-07-22 13:05:46] === WEBHOOK ACCESSED ===
+[2025-07-22 13:05:46] Method: POST
+[2025-07-22 13:05:46] User-Agent: Unknown
+[2025-07-22 13:05:46] Raw Input: {"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:05:45.6742779Z","status":"EM PROCESSAMENTO","valor":356.0,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:05:46] Parsed webhook data: {"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:05:45.6742779Z","status":"EM PROCESSAMENTO","valor":356,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:05:46] Processing - Transaction ID: 286f96e6-a8bb-48ee-8e4a-57680900a159, Status: EM PROCESSAMENTO, Idempotency: 687f8c85d4b31-1753189509
+[2025-07-22 13:05:46] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 13:05:46] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:05:46] Saque data: {"id":"40","user_id":"14","valor":"356.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:05:46] Status já atualizado: PROCESSING
+[2025-07-22 13:06:06] === WEBHOOK ACCESSED ===
+[2025-07-22 13:06:06] Method: POST
+[2025-07-22 13:06:06] User-Agent: Unknown
+[2025-07-22 13:06:06] Raw Input: {"recebedor":{"cpfCnpj":"13794942493","nome":"Willams Clécio Teixeira da Silva"},"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:06:06.0802137Z","status":"REALIZADO","valor":356.0,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:06:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"13794942493","nome":"Willams Cl\u00e9cio Teixeira da Silva"},"id":"286f96e6-a8bb-48ee-8e4a-57680900a159","movementDate":"2025-07-22T10:06:06.0802137Z","status":"REALIZADO","valor":356,"idempotencyKey":"687f8c85d4b31-1753189509"}
+[2025-07-22 13:06:06] Processing - Transaction ID: 286f96e6-a8bb-48ee-8e4a-57680900a159, Status: REALIZADO, Idempotency: 687f8c85d4b31-1753189509
+[2025-07-22 13:06:06] Status mapping: REALIZADO -> PAID
+[2025-07-22 13:06:06] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:06:06] Saque data: {"id":"40","user_id":"14","valor":"356.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:06:06] Status updated: PROCESSING -> PAID for saque ID 40
+[2025-07-22 13:06:06] Transaction committed successfully
+[2025-07-22 13:06:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"286f96e6-a8bb-48ee-8e4a-57680900a159","saque_id":"40","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 13:06:06"}
+[2025-07-22 13:52:12] === WEBHOOK ACCESSED ===
+[2025-07-22 13:52:12] Method: POST
+[2025-07-22 13:52:12] User-Agent: Unknown
+[2025-07-22 13:52:12] Raw Input: {"id":"a83c4fa3-6e58-446d-b2ae-9dcb96023e60","movementDate":"2025-07-22T10:52:12.1771686Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"687f978bdcb48-1753192331"}
+[2025-07-22 13:52:12] Parsed webhook data: {"id":"a83c4fa3-6e58-446d-b2ae-9dcb96023e60","movementDate":"2025-07-22T10:52:12.1771686Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"687f978bdcb48-1753192331"}
+[2025-07-22 13:52:12] Processing - Transaction ID: a83c4fa3-6e58-446d-b2ae-9dcb96023e60, Status: EM PROCESSAMENTO, Idempotency: 687f978bdcb48-1753192331
+[2025-07-22 13:52:12] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 13:52:12] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:52:12] Saque data: {"id":"41","user_id":"136","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:52:12] Status já atualizado: PROCESSING
+[2025-07-22 13:52:39] === WEBHOOK ACCESSED ===
+[2025-07-22 13:52:39] Method: POST
+[2025-07-22 13:52:39] User-Agent: Unknown
+[2025-07-22 13:52:39] Raw Input: {"recebedor":{"cpfCnpj":"15502980464","nome":"Joao Vitor"},"id":"a83c4fa3-6e58-446d-b2ae-9dcb96023e60","movementDate":"2025-07-22T10:52:38.5544681Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"687f978bdcb48-1753192331"}
+[2025-07-22 13:52:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"15502980464","nome":"Joao Vitor"},"id":"a83c4fa3-6e58-446d-b2ae-9dcb96023e60","movementDate":"2025-07-22T10:52:38.5544681Z","status":"REALIZADO","valor":20,"idempotencyKey":"687f978bdcb48-1753192331"}
+[2025-07-22 13:52:39] Processing - Transaction ID: a83c4fa3-6e58-446d-b2ae-9dcb96023e60, Status: REALIZADO, Idempotency: 687f978bdcb48-1753192331
+[2025-07-22 13:52:39] Status mapping: REALIZADO -> PAID
+[2025-07-22 13:52:39] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:52:39] Saque data: {"id":"41","user_id":"136","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:52:39] Status updated: PROCESSING -> PAID for saque ID 41
+[2025-07-22 13:52:39] Transaction committed successfully
+[2025-07-22 13:52:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a83c4fa3-6e58-446d-b2ae-9dcb96023e60","saque_id":"41","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 13:52:39"}
+[2025-07-22 13:53:03] === WEBHOOK ACCESSED ===
+[2025-07-22 13:53:03] Method: POST
+[2025-07-22 13:53:03] User-Agent: Unknown
+[2025-07-22 13:53:03] Raw Input: {"id":"95afd7ed-5334-4c7c-9e50-51584d691c82","movementDate":"2025-07-22T10:53:03.4290404Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"687f97bf3cde9-1753192383"}
+[2025-07-22 13:53:03] Parsed webhook data: {"id":"95afd7ed-5334-4c7c-9e50-51584d691c82","movementDate":"2025-07-22T10:53:03.4290404Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"687f97bf3cde9-1753192383"}
+[2025-07-22 13:53:03] Processing - Transaction ID: 95afd7ed-5334-4c7c-9e50-51584d691c82, Status: EM PROCESSAMENTO, Idempotency: 687f97bf3cde9-1753192383
+[2025-07-22 13:53:03] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 13:53:03] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:53:03] Saque data: {"id":"43","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:53:03] Status já atualizado: PROCESSING
+[2025-07-22 13:53:16] === WEBHOOK ACCESSED ===
+[2025-07-22 13:53:16] Method: POST
+[2025-07-22 13:53:16] User-Agent: Unknown
+[2025-07-22 13:53:16] Raw Input: {"id":"23f77a32-df26-4b26-8073-9ae0168bc600","movementDate":"2025-07-22T10:53:15.8354579Z","status":"EM PROCESSAMENTO","valor":70.0,"idempotencyKey":"687f97cb9158a-1753192395"}
+[2025-07-22 13:53:16] Parsed webhook data: {"id":"23f77a32-df26-4b26-8073-9ae0168bc600","movementDate":"2025-07-22T10:53:15.8354579Z","status":"EM PROCESSAMENTO","valor":70,"idempotencyKey":"687f97cb9158a-1753192395"}
+[2025-07-22 13:53:16] Processing - Transaction ID: 23f77a32-df26-4b26-8073-9ae0168bc600, Status: EM PROCESSAMENTO, Idempotency: 687f97cb9158a-1753192395
+[2025-07-22 13:53:16] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 13:53:16] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:53:16] Saque data: {"id":"42","user_id":"274","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:53:16] Status já atualizado: PROCESSING
+[2025-07-22 13:53:38] === WEBHOOK ACCESSED ===
+[2025-07-22 13:53:38] Method: POST
+[2025-07-22 13:53:38] User-Agent: Unknown
+[2025-07-22 13:53:38] Raw Input: {"recebedor":{"cpfCnpj":"42399214811","nome":"MARCELO CESAR PEREIRA DE AZEVEDO"},"id":"23f77a32-df26-4b26-8073-9ae0168bc600","movementDate":"2025-07-22T10:53:38.3528922Z","status":"REALIZADO","valor":70.0,"idempotencyKey":"687f97cb9158a-1753192395"}
+[2025-07-22 13:53:38] Parsed webhook data: {"recebedor":{"cpfCnpj":"42399214811","nome":"MARCELO CESAR PEREIRA DE AZEVEDO"},"id":"23f77a32-df26-4b26-8073-9ae0168bc600","movementDate":"2025-07-22T10:53:38.3528922Z","status":"REALIZADO","valor":70,"idempotencyKey":"687f97cb9158a-1753192395"}
+[2025-07-22 13:53:38] Processing - Transaction ID: 23f77a32-df26-4b26-8073-9ae0168bc600, Status: REALIZADO, Idempotency: 687f97cb9158a-1753192395
+[2025-07-22 13:53:38] Status mapping: REALIZADO -> PAID
+[2025-07-22 13:53:38] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:53:38] Saque data: {"id":"42","user_id":"274","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:53:38] Status updated: PROCESSING -> PAID for saque ID 42
+[2025-07-22 13:53:38] Transaction committed successfully
+[2025-07-22 13:53:38] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"23f77a32-df26-4b26-8073-9ae0168bc600","saque_id":"42","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 13:53:38"}
+[2025-07-22 13:53:39] === WEBHOOK ACCESSED ===
+[2025-07-22 13:53:39] Method: POST
+[2025-07-22 13:53:39] User-Agent: Unknown
+[2025-07-22 13:53:39] Raw Input: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"95afd7ed-5334-4c7c-9e50-51584d691c82","movementDate":"2025-07-22T10:53:39.1869739Z","status":"REALIZADO","valor":50.0,"idempotencyKey":"687f97bf3cde9-1753192383"}
+[2025-07-22 13:53:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"95afd7ed-5334-4c7c-9e50-51584d691c82","movementDate":"2025-07-22T10:53:39.1869739Z","status":"REALIZADO","valor":50,"idempotencyKey":"687f97bf3cde9-1753192383"}
+[2025-07-22 13:53:39] Processing - Transaction ID: 95afd7ed-5334-4c7c-9e50-51584d691c82, Status: REALIZADO, Idempotency: 687f97bf3cde9-1753192383
+[2025-07-22 13:53:39] Status mapping: REALIZADO -> PAID
+[2025-07-22 13:53:39] Search result: Found via transaction_id_digitopay
+[2025-07-22 13:53:39] Saque data: {"id":"43","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 13:53:39] Status updated: PROCESSING -> PAID for saque ID 43
+[2025-07-22 13:53:39] Transaction committed successfully
+[2025-07-22 13:53:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"95afd7ed-5334-4c7c-9e50-51584d691c82","saque_id":"43","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 13:53:39"}
+[2025-07-22 14:29:07] === WEBHOOK ACCESSED ===
+[2025-07-22 14:29:07] Method: POST
+[2025-07-22 14:29:07] User-Agent: Unknown
+[2025-07-22 14:29:07] Raw Input: {"id":"9f36ce78-8054-4a8d-9011-a010ba0cbd80","movementDate":"2025-07-22T11:29:06.8429844Z","status":"EM PROCESSAMENTO","valor":25.0,"idempotencyKey":"687fa0329b5c8-1753194546"}
+[2025-07-22 14:29:07] Parsed webhook data: {"id":"9f36ce78-8054-4a8d-9011-a010ba0cbd80","movementDate":"2025-07-22T11:29:06.8429844Z","status":"EM PROCESSAMENTO","valor":25,"idempotencyKey":"687fa0329b5c8-1753194546"}
+[2025-07-22 14:29:07] Processing - Transaction ID: 9f36ce78-8054-4a8d-9011-a010ba0cbd80, Status: EM PROCESSAMENTO, Idempotency: 687fa0329b5c8-1753194546
+[2025-07-22 14:29:07] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 14:29:07] Search result: Found via transaction_id_digitopay
+[2025-07-22 14:29:07] Saque data: {"id":"47","user_id":"248","valor":"25.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 14:29:07] Status já atualizado: PROCESSING
+[2025-07-22 14:29:38] === WEBHOOK ACCESSED ===
+[2025-07-22 14:29:38] Method: POST
+[2025-07-22 14:29:38] User-Agent: Unknown
+[2025-07-22 14:29:38] Raw Input: {"recebedor":{"cpfCnpj":"43169839896","nome":"Jackson steffeson de souza"},"id":"9f36ce78-8054-4a8d-9011-a010ba0cbd80","movementDate":"2025-07-22T11:29:38.0238164Z","status":"REALIZADO","valor":25.0,"idempotencyKey":"687fa0329b5c8-1753194546"}
+[2025-07-22 14:29:38] Parsed webhook data: {"recebedor":{"cpfCnpj":"43169839896","nome":"Jackson steffeson de souza"},"id":"9f36ce78-8054-4a8d-9011-a010ba0cbd80","movementDate":"2025-07-22T11:29:38.0238164Z","status":"REALIZADO","valor":25,"idempotencyKey":"687fa0329b5c8-1753194546"}
+[2025-07-22 14:29:38] Processing - Transaction ID: 9f36ce78-8054-4a8d-9011-a010ba0cbd80, Status: REALIZADO, Idempotency: 687fa0329b5c8-1753194546
+[2025-07-22 14:29:38] Status mapping: REALIZADO -> PAID
+[2025-07-22 14:29:38] Search result: Found via transaction_id_digitopay
+[2025-07-22 14:29:38] Saque data: {"id":"47","user_id":"248","valor":"25.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 14:29:38] Status updated: PROCESSING -> PAID for saque ID 47
+[2025-07-22 14:29:38] Transaction committed successfully
+[2025-07-22 14:29:38] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"9f36ce78-8054-4a8d-9011-a010ba0cbd80","saque_id":"47","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 14:29:38"}
+[2025-07-22 14:29:48] === WEBHOOK ACCESSED ===
+[2025-07-22 14:29:48] Method: POST
+[2025-07-22 14:29:48] User-Agent: Unknown
+[2025-07-22 14:29:48] Raw Input: {"id":"cf79ed92-9faa-4dfe-b414-de081c01ef76","movementDate":"2025-07-22T11:29:48.4295332Z","status":"EM PROCESSAMENTO","valor":100.0,"idempotencyKey":"687fa05c3758f-1753194588"}
+[2025-07-22 14:29:48] Parsed webhook data: {"id":"cf79ed92-9faa-4dfe-b414-de081c01ef76","movementDate":"2025-07-22T11:29:48.4295332Z","status":"EM PROCESSAMENTO","valor":100,"idempotencyKey":"687fa05c3758f-1753194588"}
+[2025-07-22 14:29:48] Processing - Transaction ID: cf79ed92-9faa-4dfe-b414-de081c01ef76, Status: EM PROCESSAMENTO, Idempotency: 687fa05c3758f-1753194588
+[2025-07-22 14:29:48] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 14:29:48] Search result: Found via transaction_id_digitopay
+[2025-07-22 14:29:48] Saque data: {"id":"46","user_id":"276","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 14:29:48] Status já atualizado: PROCESSING
+[2025-07-22 14:30:07] === WEBHOOK ACCESSED ===
+[2025-07-22 14:30:07] Method: POST
+[2025-07-22 14:30:07] User-Agent: Unknown
+[2025-07-22 14:30:07] Raw Input: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"cf79ed92-9faa-4dfe-b414-de081c01ef76","movementDate":"2025-07-22T11:30:06.4210394Z","status":"REALIZADO","valor":100.0,"idempotencyKey":"687fa05c3758f-1753194588"}
+[2025-07-22 14:30:07] Parsed webhook data: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"cf79ed92-9faa-4dfe-b414-de081c01ef76","movementDate":"2025-07-22T11:30:06.4210394Z","status":"REALIZADO","valor":100,"idempotencyKey":"687fa05c3758f-1753194588"}
+[2025-07-22 14:30:07] Processing - Transaction ID: cf79ed92-9faa-4dfe-b414-de081c01ef76, Status: REALIZADO, Idempotency: 687fa05c3758f-1753194588
+[2025-07-22 14:30:07] Status mapping: REALIZADO -> PAID
+[2025-07-22 14:30:07] Search result: Found via transaction_id_digitopay
+[2025-07-22 14:30:07] Saque data: {"id":"46","user_id":"276","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 14:30:07] Status updated: PROCESSING -> PAID for saque ID 46
+[2025-07-22 14:30:07] Transaction committed successfully
+[2025-07-22 14:30:07] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"cf79ed92-9faa-4dfe-b414-de081c01ef76","saque_id":"46","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 14:30:07"}
+[2025-07-22 14:51:04] === WEBHOOK ACCESSED ===
+[2025-07-22 14:51:04] Method: POST
+[2025-07-22 14:51:04] User-Agent: Unknown
+[2025-07-22 14:51:04] Raw Input: {"id":"7611aa2e-ed99-4d2d-895b-86639e6f9071","movementDate":"2025-07-22T11:51:03.6599263Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"687fa5576f7bb-1753195863"}
+[2025-07-22 14:51:04] Parsed webhook data: {"id":"7611aa2e-ed99-4d2d-895b-86639e6f9071","movementDate":"2025-07-22T11:51:03.6599263Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"687fa5576f7bb-1753195863"}
+[2025-07-22 14:51:04] Processing - Transaction ID: 7611aa2e-ed99-4d2d-895b-86639e6f9071, Status: EM PROCESSAMENTO, Idempotency: 687fa5576f7bb-1753195863
+[2025-07-22 14:51:04] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 14:51:04] Search result: Found via transaction_id_digitopay
+[2025-07-22 14:51:04] Saque data: {"id":"49","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 14:51:04] Status já atualizado: PROCESSING
+[2025-07-22 14:51:39] === WEBHOOK ACCESSED ===
+[2025-07-22 14:51:39] Method: POST
+[2025-07-22 14:51:39] User-Agent: Unknown
+[2025-07-22 14:51:39] Raw Input: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"7611aa2e-ed99-4d2d-895b-86639e6f9071","movementDate":"2025-07-22T11:51:38.8216639Z","status":"REALIZADO","valor":50.0,"idempotencyKey":"687fa5576f7bb-1753195863"}
+[2025-07-22 14:51:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"7611aa2e-ed99-4d2d-895b-86639e6f9071","movementDate":"2025-07-22T11:51:38.8216639Z","status":"REALIZADO","valor":50,"idempotencyKey":"687fa5576f7bb-1753195863"}
+[2025-07-22 14:51:39] Processing - Transaction ID: 7611aa2e-ed99-4d2d-895b-86639e6f9071, Status: REALIZADO, Idempotency: 687fa5576f7bb-1753195863
+[2025-07-22 14:51:39] Status mapping: REALIZADO -> PAID
+[2025-07-22 14:51:39] Search result: Found via transaction_id_digitopay
+[2025-07-22 14:51:39] Saque data: {"id":"49","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 14:51:39] Status updated: PROCESSING -> PAID for saque ID 49
+[2025-07-22 14:51:39] Transaction committed successfully
+[2025-07-22 14:51:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"7611aa2e-ed99-4d2d-895b-86639e6f9071","saque_id":"49","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 14:51:39"}
+[2025-07-22 15:05:13] === WEBHOOK ACCESSED ===
+[2025-07-22 15:05:13] Method: POST
+[2025-07-22 15:05:13] User-Agent: Unknown
+[2025-07-22 15:05:13] Raw Input: {"id":"91c4876c-a535-4600-966b-a15f698957fc","movementDate":"2025-07-22T12:05:12.7293278Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"687fa8a7af3b0-1753196711"}
+[2025-07-22 15:05:14] Parsed webhook data: {"id":"91c4876c-a535-4600-966b-a15f698957fc","movementDate":"2025-07-22T12:05:12.7293278Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"687fa8a7af3b0-1753196711"}
+[2025-07-22 15:05:14] Processing - Transaction ID: 91c4876c-a535-4600-966b-a15f698957fc, Status: EM PROCESSAMENTO, Idempotency: 687fa8a7af3b0-1753196711
+[2025-07-22 15:05:14] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:05:14] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:05:14] Saque data: {"id":"50","user_id":"273","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:05:14] Status já atualizado: PROCESSING
+[2025-07-22 15:05:41] === WEBHOOK ACCESSED ===
+[2025-07-22 15:05:41] Method: POST
+[2025-07-22 15:05:41] User-Agent: Unknown
+[2025-07-22 15:05:41] Raw Input: {"recebedor":{"cpfCnpj":"32772637468","nome":"MOISES GOMES VIANA"},"id":"91c4876c-a535-4600-966b-a15f698957fc","movementDate":"2025-07-22T12:05:39.7387442Z","status":"REALIZADO","valor":50.0,"idempotencyKey":"687fa8a7af3b0-1753196711"}
+[2025-07-22 15:05:41] Parsed webhook data: {"recebedor":{"cpfCnpj":"32772637468","nome":"MOISES GOMES VIANA"},"id":"91c4876c-a535-4600-966b-a15f698957fc","movementDate":"2025-07-22T12:05:39.7387442Z","status":"REALIZADO","valor":50,"idempotencyKey":"687fa8a7af3b0-1753196711"}
+[2025-07-22 15:05:41] Processing - Transaction ID: 91c4876c-a535-4600-966b-a15f698957fc, Status: REALIZADO, Idempotency: 687fa8a7af3b0-1753196711
+[2025-07-22 15:05:41] Status mapping: REALIZADO -> PAID
+[2025-07-22 15:05:41] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:05:41] Saque data: {"id":"50","user_id":"273","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:05:41] Status updated: PROCESSING -> PAID for saque ID 50
+[2025-07-22 15:05:41] Transaction committed successfully
+[2025-07-22 15:05:41] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"91c4876c-a535-4600-966b-a15f698957fc","saque_id":"50","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:05:41"}
+[2025-07-22 15:28:24] === WEBHOOK ACCESSED ===
+[2025-07-22 15:28:24] Method: POST
+[2025-07-22 15:28:24] User-Agent: Unknown
+[2025-07-22 15:28:24] Raw Input: {"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:28:24.3072058Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:28:24] Parsed webhook data: {"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:28:24.3072058Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:28:24] Processing - Transaction ID: b33fef8f-3f41-4d0c-91c5-2592f835611a, Status: EM PROCESSAMENTO, Idempotency: 687fae181f548-1753198104
+[2025-07-22 15:28:24] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:28:24] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:28:24] Saque data: {"id":"52","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:28:24] Status já atualizado: PROCESSING
+[2025-07-22 15:28:24] === WEBHOOK ACCESSED ===
+[2025-07-22 15:28:24] Method: POST
+[2025-07-22 15:28:24] User-Agent: Unknown
+[2025-07-22 15:28:24] Raw Input: {"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:28:24.2541669Z","status":"ANALISE","valor":50.0,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:28:24] Parsed webhook data: {"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:28:24.2541669Z","status":"ANALISE","valor":50,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:28:24] Processing - Transaction ID: b33fef8f-3f41-4d0c-91c5-2592f835611a, Status: ANALISE, Idempotency: 687fae181f548-1753198104
+[2025-07-22 15:28:24] Status mapping: ANALISE -> PROCESSING
+[2025-07-22 15:28:24] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:28:24] Saque data: {"id":"52","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:28:24] Status já atualizado: PROCESSING
+[2025-07-22 15:28:27] === WEBHOOK ACCESSED ===
+[2025-07-22 15:28:27] Method: POST
+[2025-07-22 15:28:27] User-Agent: Unknown
+[2025-07-22 15:28:27] Raw Input: {"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:28:26.8732422Z","status":"EM PROCESSAMENTO","valor":220.0,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:28:27] Parsed webhook data: {"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:28:26.8732422Z","status":"EM PROCESSAMENTO","valor":220,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:28:27] Processing - Transaction ID: 8587d371-7d21-440c-9284-644e115b4ed3, Status: EM PROCESSAMENTO, Idempotency: 687fae1a9ab3a-1753198106
+[2025-07-22 15:28:27] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:28:27] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:28:27] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:28:27] Status já atualizado: PROCESSING
+[2025-07-22 15:28:27] === WEBHOOK ACCESSED ===
+[2025-07-22 15:28:27] Method: POST
+[2025-07-22 15:28:27] User-Agent: Unknown
+[2025-07-22 15:28:27] Raw Input: {"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:28:26.9260256Z","status":"PENDENTE","valor":220.0,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:28:27] Parsed webhook data: {"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:28:26.9260256Z","status":"PENDENTE","valor":220,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:28:27] Processing - Transaction ID: 8587d371-7d21-440c-9284-644e115b4ed3, Status: PENDENTE, Idempotency: 687fae1a9ab3a-1753198106
+[2025-07-22 15:28:27] Status mapping: PENDENTE -> PENDING
+[2025-07-22 15:28:27] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:28:27] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:28:27] Status updated: PROCESSING -> PENDING for saque ID 51
+[2025-07-22 15:28:27] Transaction committed successfully
+[2025-07-22 15:28:27] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"8587d371-7d21-440c-9284-644e115b4ed3","saque_id":"51","old_status":"PROCESSING","new_status":"PENDING","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:28:27"}
+[2025-07-22 15:36:49] === WEBHOOK ACCESSED ===
+[2025-07-22 15:36:49] Method: POST
+[2025-07-22 15:36:49] User-Agent: Unknown
+[2025-07-22 15:36:49] Raw Input: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:36:49.1213935Z","status":"EM PROCESSAMENTO","valor":220.0,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:36:49] Parsed webhook data: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:36:49.1213935Z","status":"EM PROCESSAMENTO","valor":220,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:36:49] Processing - Transaction ID: d9a6c6e7-49b9-44f4-a407-5ae8fdd14556, Status: EM PROCESSAMENTO, Idempotency: 687fb010d4e24-1753198608
+[2025-07-22 15:36:49] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:36:49] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:36:49] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:36:49] Status já atualizado: PROCESSING
+[2025-07-22 15:36:49] === WEBHOOK ACCESSED ===
+[2025-07-22 15:36:49] Method: POST
+[2025-07-22 15:36:49] User-Agent: Unknown
+[2025-07-22 15:36:49] Raw Input: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:36:49.1720429Z","status":"PENDENTE","valor":220.0,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:36:49] Parsed webhook data: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:36:49.1720429Z","status":"PENDENTE","valor":220,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:36:49] Processing - Transaction ID: d9a6c6e7-49b9-44f4-a407-5ae8fdd14556, Status: PENDENTE, Idempotency: 687fb010d4e24-1753198608
+[2025-07-22 15:36:49] Status mapping: PENDENTE -> PENDING
+[2025-07-22 15:36:49] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:36:49] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:36:49] Status updated: PROCESSING -> PENDING for saque ID 51
+[2025-07-22 15:36:49] Transaction committed successfully
+[2025-07-22 15:36:49] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","saque_id":"51","old_status":"PROCESSING","new_status":"PENDING","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:36:49"}
+[2025-07-22 15:37:13] === WEBHOOK ACCESSED ===
+[2025-07-22 15:37:13] Method: POST
+[2025-07-22 15:37:13] User-Agent: Unknown
+[2025-07-22 15:37:13] Raw Input: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:12.8296493Z","status":"EM PROCESSAMENTO","valor":220.0,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:13] Parsed webhook data: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:12.8296493Z","status":"EM PROCESSAMENTO","valor":220,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:13] Processing - Transaction ID: 44a889ab-a17b-4bdd-a42b-b1d71daeac5b, Status: EM PROCESSAMENTO, Idempotency: 687fb02897a0c-1753198632
+[2025-07-22 15:37:13] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:37:13] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:37:13] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:37:13] Status já atualizado: PROCESSING
+[2025-07-22 15:37:13] === WEBHOOK ACCESSED ===
+[2025-07-22 15:37:13] Method: POST
+[2025-07-22 15:37:13] User-Agent: Unknown
+[2025-07-22 15:37:13] Raw Input: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:12.8822796Z","status":"PENDENTE","valor":220.0,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:13] Parsed webhook data: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:12.8822796Z","status":"PENDENTE","valor":220,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:13] Processing - Transaction ID: 44a889ab-a17b-4bdd-a42b-b1d71daeac5b, Status: PENDENTE, Idempotency: 687fb02897a0c-1753198632
+[2025-07-22 15:37:13] Status mapping: PENDENTE -> PENDING
+[2025-07-22 15:37:13] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:37:13] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:37:13] Status updated: PROCESSING -> PENDING for saque ID 51
+[2025-07-22 15:37:13] Transaction committed successfully
+[2025-07-22 15:37:13] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","saque_id":"51","old_status":"PROCESSING","new_status":"PENDING","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:37:13"}
+[2025-07-22 15:37:49] === WEBHOOK ACCESSED ===
+[2025-07-22 15:37:49] Method: POST
+[2025-07-22 15:37:49] User-Agent: Unknown
+[2025-07-22 15:37:49] Raw Input: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:37:49.0594674Z","status":"EM PROCESSAMENTO","valor":220.0,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:37:49] Parsed webhook data: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:37:49.0594674Z","status":"EM PROCESSAMENTO","valor":220,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:37:49] Processing - Transaction ID: d9a6c6e7-49b9-44f4-a407-5ae8fdd14556, Status: EM PROCESSAMENTO, Idempotency: 687fb010d4e24-1753198608
+[2025-07-22 15:37:49] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:37:49] Search result: Found via recent_processing
+[2025-07-22 15:37:49] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PENDING","gateway":"digitopay"}
+[2025-07-22 15:37:49] Status updated: PENDING -> PROCESSING for saque ID 51
+[2025-07-22 15:37:49] Transaction committed successfully
+[2025-07-22 15:37:49] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","saque_id":"51","old_status":"PENDING","new_status":"PROCESSING","search_method":"recent_processing","timestamp":"2025-07-22 15:37:49"}
+[2025-07-22 15:37:49] === WEBHOOK ACCESSED ===
+[2025-07-22 15:37:49] Method: POST
+[2025-07-22 15:37:49] User-Agent: Unknown
+[2025-07-22 15:37:49] Raw Input: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:37:49.0740592Z","status":"CANCELADO","valor":220.0,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:37:49] Parsed webhook data: {"id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","movementDate":"2025-07-22T12:37:49.0740592Z","status":"CANCELADO","valor":220,"idempotencyKey":"687fb010d4e24-1753198608"}
+[2025-07-22 15:37:49] Processing - Transaction ID: d9a6c6e7-49b9-44f4-a407-5ae8fdd14556, Status: CANCELADO, Idempotency: 687fb010d4e24-1753198608
+[2025-07-22 15:37:49] Status mapping: CANCELADO -> CANCELLED
+[2025-07-22 15:37:49] Search result: Found via recent_processing
+[2025-07-22 15:37:49] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:37:49] Status updated: PROCESSING -> CANCELLED for saque ID 51
+[2025-07-22 15:37:49] Processing refund for failed/cancelled withdrawal
+[2025-07-22 15:37:49] Refund processed: R$ 220.00 returned to user 282
+[2025-07-22 15:37:49] Transaction committed successfully
+[2025-07-22 15:37:49] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"d9a6c6e7-49b9-44f4-a407-5ae8fdd14556","saque_id":"51","old_status":"PROCESSING","new_status":"CANCELLED","search_method":"recent_processing","timestamp":"2025-07-22 15:37:49"}
+[2025-07-22 15:37:59] === WEBHOOK ACCESSED ===
+[2025-07-22 15:37:59] Method: POST
+[2025-07-22 15:37:59] User-Agent: Unknown
+[2025-07-22 15:37:59] Raw Input: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:58.5625047Z","status":"EM PROCESSAMENTO","valor":220.0,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:59] Parsed webhook data: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:58.5625047Z","status":"EM PROCESSAMENTO","valor":220,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:59] Processing - Transaction ID: 44a889ab-a17b-4bdd-a42b-b1d71daeac5b, Status: EM PROCESSAMENTO, Idempotency: 687fb02897a0c-1753198632
+[2025-07-22 15:37:59] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:37:59] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:37:59] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"CANCELLED","gateway":"digitopay"}
+[2025-07-22 15:37:59] Status updated: CANCELLED -> PROCESSING for saque ID 51
+[2025-07-22 15:37:59] Transaction committed successfully
+[2025-07-22 15:37:59] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","saque_id":"51","old_status":"CANCELLED","new_status":"PROCESSING","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:37:59"}
+[2025-07-22 15:37:59] === WEBHOOK ACCESSED ===
+[2025-07-22 15:37:59] Method: POST
+[2025-07-22 15:37:59] User-Agent: Unknown
+[2025-07-22 15:37:59] Raw Input: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:58.5785958Z","status":"CANCELADO","valor":220.0,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:59] Parsed webhook data: {"id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","movementDate":"2025-07-22T12:37:58.5785958Z","status":"CANCELADO","valor":220,"idempotencyKey":"687fb02897a0c-1753198632"}
+[2025-07-22 15:37:59] Processing - Transaction ID: 44a889ab-a17b-4bdd-a42b-b1d71daeac5b, Status: CANCELADO, Idempotency: 687fb02897a0c-1753198632
+[2025-07-22 15:37:59] Status mapping: CANCELADO -> CANCELLED
+[2025-07-22 15:37:59] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:37:59] Saque data: {"id":"51","user_id":"282","valor":"220.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:37:59] Status updated: PROCESSING -> CANCELLED for saque ID 51
+[2025-07-22 15:37:59] Processing refund for failed/cancelled withdrawal
+[2025-07-22 15:37:59] Refund processed: R$ 220.00 returned to user 282
+[2025-07-22 15:37:59] Transaction committed successfully
+[2025-07-22 15:37:59] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"44a889ab-a17b-4bdd-a42b-b1d71daeac5b","saque_id":"51","old_status":"PROCESSING","new_status":"CANCELLED","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:37:59"}
+[2025-07-22 15:38:11] === WEBHOOK ACCESSED ===
+[2025-07-22 15:38:11] Method: POST
+[2025-07-22 15:38:11] User-Agent: Unknown
+[2025-07-22 15:38:11] Raw Input: {"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:38:10.5114505Z","status":"EM PROCESSAMENTO","valor":220.0,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:38:11] Parsed webhook data: {"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:38:10.5114505Z","status":"EM PROCESSAMENTO","valor":220,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:38:11] Processing - Transaction ID: 8587d371-7d21-440c-9284-644e115b4ed3, Status: EM PROCESSAMENTO, Idempotency: 687fae1a9ab3a-1753198106
+[2025-07-22 15:38:11] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:38:11] Search result: Found via recent_processing
+[2025-07-22 15:38:11] Saque data: {"id":"52","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:38:11] Status já atualizado: PROCESSING
+[2025-07-22 15:38:11] === WEBHOOK ACCESSED ===
+[2025-07-22 15:38:11] Method: POST
+[2025-07-22 15:38:11] User-Agent: Unknown
+[2025-07-22 15:38:11] Raw Input: {"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:38:10.5327007Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:38:11] Parsed webhook data: {"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:38:10.5327007Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:38:11] Processing - Transaction ID: b33fef8f-3f41-4d0c-91c5-2592f835611a, Status: EM PROCESSAMENTO, Idempotency: 687fae181f548-1753198104
+[2025-07-22 15:38:11] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 15:38:11] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:38:11] Saque data: {"id":"52","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:38:11] Status já atualizado: PROCESSING
+[2025-07-22 15:38:40] === WEBHOOK ACCESSED ===
+[2025-07-22 15:38:40] Method: POST
+[2025-07-22 15:38:40] User-Agent: Unknown
+[2025-07-22 15:38:40] Raw Input: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:38:40.0883251Z","status":"REALIZADO","valor":50.0,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:38:40] Parsed webhook data: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","movementDate":"2025-07-22T12:38:40.0883251Z","status":"REALIZADO","valor":50,"idempotencyKey":"687fae181f548-1753198104"}
+[2025-07-22 15:38:40] Processing - Transaction ID: b33fef8f-3f41-4d0c-91c5-2592f835611a, Status: REALIZADO, Idempotency: 687fae181f548-1753198104
+[2025-07-22 15:38:40] Status mapping: REALIZADO -> PAID
+[2025-07-22 15:38:40] Search result: Found via transaction_id_digitopay
+[2025-07-22 15:38:40] Saque data: {"id":"52","user_id":"276","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 15:38:40] Status updated: PROCESSING -> PAID for saque ID 52
+[2025-07-22 15:38:40] Transaction committed successfully
+[2025-07-22 15:38:40] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"b33fef8f-3f41-4d0c-91c5-2592f835611a","saque_id":"52","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 15:38:40"}
+[2025-07-22 15:38:40] === WEBHOOK ACCESSED ===
+[2025-07-22 15:38:40] Method: POST
+[2025-07-22 15:38:40] User-Agent: Unknown
+[2025-07-22 15:38:40] Raw Input: {"recebedor":{"cpfCnpj":"10282151427","nome":"Andressa keila"},"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:38:40.3099461Z","status":"REALIZADO","valor":220.0,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:38:40] Parsed webhook data: {"recebedor":{"cpfCnpj":"10282151427","nome":"Andressa keila"},"id":"8587d371-7d21-440c-9284-644e115b4ed3","movementDate":"2025-07-22T12:38:40.3099461Z","status":"REALIZADO","valor":220,"idempotencyKey":"687fae1a9ab3a-1753198106"}
+[2025-07-22 15:38:40] Processing - Transaction ID: 8587d371-7d21-440c-9284-644e115b4ed3, Status: REALIZADO, Idempotency: 687fae1a9ab3a-1753198106
+[2025-07-22 15:38:40] Status mapping: REALIZADO -> PAID
+[2025-07-22 15:38:40] Search result: Not found
+[2025-07-22 15:38:40] Saque data: false
+[2025-07-22 15:38:40] ERROR: Saque não encontrado para transactionId: 8587d371-7d21-440c-9284-644e115b4ed3
+[2025-07-22 16:37:27] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:27] Method: POST
+[2025-07-22 16:37:27] User-Agent: Unknown
+[2025-07-22 16:37:27] Raw Input: {"id":"212fd22b-2f4a-4da5-9253-546bec8bff21","movementDate":"2025-07-22T13:37:26.6739402Z","status":"EM PROCESSAMENTO","valor":100.0,"idempotencyKey":"687fbe4673c37-1753202246"}
+[2025-07-22 16:37:27] Parsed webhook data: {"id":"212fd22b-2f4a-4da5-9253-546bec8bff21","movementDate":"2025-07-22T13:37:26.6739402Z","status":"EM PROCESSAMENTO","valor":100,"idempotencyKey":"687fbe4673c37-1753202246"}
+[2025-07-22 16:37:27] Processing - Transaction ID: 212fd22b-2f4a-4da5-9253-546bec8bff21, Status: EM PROCESSAMENTO, Idempotency: 687fbe4673c37-1753202246
+[2025-07-22 16:37:27] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 16:37:27] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:27] Saque data: {"id":"56","user_id":"274","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:27] Status já atualizado: PROCESSING
+[2025-07-22 16:37:33] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:33] Method: POST
+[2025-07-22 16:37:33] User-Agent: Unknown
+[2025-07-22 16:37:33] Raw Input: {"id":"142b2b84-e8d3-4bc6-9302-d05a08b8b43c","movementDate":"2025-07-22T13:37:32.5570046Z","status":"EM PROCESSAMENTO","valor":70.0,"idempotencyKey":"687fbe4c506d4-1753202252"}
+[2025-07-22 16:37:33] Parsed webhook data: {"id":"142b2b84-e8d3-4bc6-9302-d05a08b8b43c","movementDate":"2025-07-22T13:37:32.5570046Z","status":"EM PROCESSAMENTO","valor":70,"idempotencyKey":"687fbe4c506d4-1753202252"}
+[2025-07-22 16:37:33] Processing - Transaction ID: 142b2b84-e8d3-4bc6-9302-d05a08b8b43c, Status: EM PROCESSAMENTO, Idempotency: 687fbe4c506d4-1753202252
+[2025-07-22 16:37:33] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 16:37:33] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:33] Saque data: {"id":"55","user_id":"286","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:33] Status já atualizado: PROCESSING
+[2025-07-22 16:37:37] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:37] Method: POST
+[2025-07-22 16:37:37] User-Agent: Unknown
+[2025-07-22 16:37:37] Raw Input: {"id":"e8903b31-4a0c-4af6-aea2-a46305b73ecb","movementDate":"2025-07-22T13:37:36.4430432Z","status":"EM PROCESSAMENTO","valor":45.0,"idempotencyKey":"687fbe5042e73-1753202256"}
+[2025-07-22 16:37:37] Parsed webhook data: {"id":"e8903b31-4a0c-4af6-aea2-a46305b73ecb","movementDate":"2025-07-22T13:37:36.4430432Z","status":"EM PROCESSAMENTO","valor":45,"idempotencyKey":"687fbe5042e73-1753202256"}
+[2025-07-22 16:37:37] Processing - Transaction ID: e8903b31-4a0c-4af6-aea2-a46305b73ecb, Status: EM PROCESSAMENTO, Idempotency: 687fbe5042e73-1753202256
+[2025-07-22 16:37:37] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 16:37:37] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:37] Saque data: {"id":"54","user_id":"179","valor":"45.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:37] Status já atualizado: PROCESSING
+[2025-07-22 16:37:39] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:39] Method: POST
+[2025-07-22 16:37:39] User-Agent: Unknown
+[2025-07-22 16:37:39] Raw Input: {"recebedor":{"cpfCnpj":"42399214811","nome":"MARCELO CESAR PEREIRA DE AZEVEDO"},"id":"212fd22b-2f4a-4da5-9253-546bec8bff21","movementDate":"2025-07-22T13:37:39.0803927Z","status":"REALIZADO","valor":100.0,"idempotencyKey":"687fbe4673c37-1753202246"}
+[2025-07-22 16:37:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"42399214811","nome":"MARCELO CESAR PEREIRA DE AZEVEDO"},"id":"212fd22b-2f4a-4da5-9253-546bec8bff21","movementDate":"2025-07-22T13:37:39.0803927Z","status":"REALIZADO","valor":100,"idempotencyKey":"687fbe4673c37-1753202246"}
+[2025-07-22 16:37:39] Processing - Transaction ID: 212fd22b-2f4a-4da5-9253-546bec8bff21, Status: REALIZADO, Idempotency: 687fbe4673c37-1753202246
+[2025-07-22 16:37:39] Status mapping: REALIZADO -> PAID
+[2025-07-22 16:37:39] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:39] Saque data: {"id":"56","user_id":"274","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:39] Status updated: PROCESSING -> PAID for saque ID 56
+[2025-07-22 16:37:39] Transaction committed successfully
+[2025-07-22 16:37:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"212fd22b-2f4a-4da5-9253-546bec8bff21","saque_id":"56","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 16:37:39"}
+[2025-07-22 16:37:39] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:39] Method: POST
+[2025-07-22 16:37:39] User-Agent: Unknown
+[2025-07-22 16:37:39] Raw Input: {"recebedor":{"cpfCnpj":"06410262426","nome":"Severino ambrozio da Silva Filho"},"id":"142b2b84-e8d3-4bc6-9302-d05a08b8b43c","movementDate":"2025-07-22T13:37:38.9732975Z","status":"REALIZADO","valor":70.0,"idempotencyKey":"687fbe4c506d4-1753202252"}
+[2025-07-22 16:37:39] Parsed webhook data: {"recebedor":{"cpfCnpj":"06410262426","nome":"Severino ambrozio da Silva Filho"},"id":"142b2b84-e8d3-4bc6-9302-d05a08b8b43c","movementDate":"2025-07-22T13:37:38.9732975Z","status":"REALIZADO","valor":70,"idempotencyKey":"687fbe4c506d4-1753202252"}
+[2025-07-22 16:37:39] Processing - Transaction ID: 142b2b84-e8d3-4bc6-9302-d05a08b8b43c, Status: REALIZADO, Idempotency: 687fbe4c506d4-1753202252
+[2025-07-22 16:37:39] Status mapping: REALIZADO -> PAID
+[2025-07-22 16:37:39] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:39] Saque data: {"id":"55","user_id":"286","valor":"70.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:39] Status updated: PROCESSING -> PAID for saque ID 55
+[2025-07-22 16:37:39] Transaction committed successfully
+[2025-07-22 16:37:39] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"142b2b84-e8d3-4bc6-9302-d05a08b8b43c","saque_id":"55","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 16:37:39"}
+[2025-07-22 16:37:40] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:40] Method: POST
+[2025-07-22 16:37:40] User-Agent: Unknown
+[2025-07-22 16:37:40] Raw Input: {"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:37:39.9316697Z","status":"EM PROCESSAMENTO","valor":100.0,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:37:40] Parsed webhook data: {"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:37:39.9316697Z","status":"EM PROCESSAMENTO","valor":100,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:37:40] Processing - Transaction ID: e5f527c1-17f5-4881-8fde-d5c256022c10, Status: EM PROCESSAMENTO, Idempotency: 687fbe53b4eaf-1753202259
+[2025-07-22 16:37:40] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 16:37:40] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:40] Saque data: {"id":"53","user_id":"276","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:40] Status já atualizado: PROCESSING
+[2025-07-22 16:37:40] === WEBHOOK ACCESSED ===
+[2025-07-22 16:37:40] Method: POST
+[2025-07-22 16:37:40] User-Agent: Unknown
+[2025-07-22 16:37:40] Raw Input: {"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:37:39.8799512Z","status":"ANALISE","valor":100.0,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:37:40] Parsed webhook data: {"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:37:39.8799512Z","status":"ANALISE","valor":100,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:37:40] Processing - Transaction ID: e5f527c1-17f5-4881-8fde-d5c256022c10, Status: ANALISE, Idempotency: 687fbe53b4eaf-1753202259
+[2025-07-22 16:37:40] Status mapping: ANALISE -> PROCESSING
+[2025-07-22 16:37:40] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:37:40] Saque data: {"id":"53","user_id":"276","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:37:40] Status já atualizado: PROCESSING
+[2025-07-22 16:38:06] === WEBHOOK ACCESSED ===
+[2025-07-22 16:38:06] Method: POST
+[2025-07-22 16:38:06] User-Agent: Unknown
+[2025-07-22 16:38:06] Raw Input: {"recebedor":{"cpfCnpj":"09026787103","nome":"Marta Maria dos Santos"},"id":"e8903b31-4a0c-4af6-aea2-a46305b73ecb","movementDate":"2025-07-22T13:38:06.1032064Z","status":"REALIZADO","valor":45.0,"idempotencyKey":"687fbe5042e73-1753202256"}
+[2025-07-22 16:38:06] Parsed webhook data: {"recebedor":{"cpfCnpj":"09026787103","nome":"Marta Maria dos Santos"},"id":"e8903b31-4a0c-4af6-aea2-a46305b73ecb","movementDate":"2025-07-22T13:38:06.1032064Z","status":"REALIZADO","valor":45,"idempotencyKey":"687fbe5042e73-1753202256"}
+[2025-07-22 16:38:06] Processing - Transaction ID: e8903b31-4a0c-4af6-aea2-a46305b73ecb, Status: REALIZADO, Idempotency: 687fbe5042e73-1753202256
+[2025-07-22 16:38:06] Status mapping: REALIZADO -> PAID
+[2025-07-22 16:38:06] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:38:06] Saque data: {"id":"54","user_id":"179","valor":"45.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:38:06] Status updated: PROCESSING -> PAID for saque ID 54
+[2025-07-22 16:38:06] Transaction committed successfully
+[2025-07-22 16:38:06] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"e8903b31-4a0c-4af6-aea2-a46305b73ecb","saque_id":"54","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 16:38:06"}
+[2025-07-22 16:38:22] === WEBHOOK ACCESSED ===
+[2025-07-22 16:38:22] Method: POST
+[2025-07-22 16:38:22] User-Agent: Unknown
+[2025-07-22 16:38:22] Raw Input: {"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:38:21.3342762Z","status":"EM PROCESSAMENTO","valor":100.0,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:38:22] Parsed webhook data: {"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:38:21.3342762Z","status":"EM PROCESSAMENTO","valor":100,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:38:22] Processing - Transaction ID: e5f527c1-17f5-4881-8fde-d5c256022c10, Status: EM PROCESSAMENTO, Idempotency: 687fbe53b4eaf-1753202259
+[2025-07-22 16:38:22] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 16:38:22] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:38:22] Saque data: {"id":"53","user_id":"276","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:38:22] Status já atualizado: PROCESSING
+[2025-07-22 16:38:41] === WEBHOOK ACCESSED ===
+[2025-07-22 16:38:41] Method: POST
+[2025-07-22 16:38:41] User-Agent: Unknown
+[2025-07-22 16:38:41] Raw Input: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:38:40.0780943Z","status":"REALIZADO","valor":100.0,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:38:41] Parsed webhook data: {"recebedor":{"cpfCnpj":"09405014498","nome":"Renata Rafaela alexandrino de farias"},"id":"e5f527c1-17f5-4881-8fde-d5c256022c10","movementDate":"2025-07-22T13:38:40.0780943Z","status":"REALIZADO","valor":100,"idempotencyKey":"687fbe53b4eaf-1753202259"}
+[2025-07-22 16:38:41] Processing - Transaction ID: e5f527c1-17f5-4881-8fde-d5c256022c10, Status: REALIZADO, Idempotency: 687fbe53b4eaf-1753202259
+[2025-07-22 16:38:41] Status mapping: REALIZADO -> PAID
+[2025-07-22 16:38:41] Search result: Found via transaction_id_digitopay
+[2025-07-22 16:38:41] Saque data: {"id":"53","user_id":"276","valor":"100.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 16:38:41] Status updated: PROCESSING -> PAID for saque ID 53
+[2025-07-22 16:38:41] Transaction committed successfully
+[2025-07-22 16:38:41] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"e5f527c1-17f5-4881-8fde-d5c256022c10","saque_id":"53","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 16:38:41"}
+[2025-07-22 17:08:07] === WEBHOOK ACCESSED ===
+[2025-07-22 17:08:07] Method: POST
+[2025-07-22 17:08:07] User-Agent: Unknown
+[2025-07-22 17:08:07] Raw Input: {"id":"3405d525-fdba-47c2-950b-4abd7945c39f","movementDate":"2025-07-22T14:08:06.3423682Z","status":"EM PROCESSAMENTO","valor":72.0,"idempotencyKey":"687fc57623709-1753204086"}
+[2025-07-22 17:08:07] Parsed webhook data: {"id":"3405d525-fdba-47c2-950b-4abd7945c39f","movementDate":"2025-07-22T14:08:06.3423682Z","status":"EM PROCESSAMENTO","valor":72,"idempotencyKey":"687fc57623709-1753204086"}
+[2025-07-22 17:08:07] Processing - Transaction ID: 3405d525-fdba-47c2-950b-4abd7945c39f, Status: EM PROCESSAMENTO, Idempotency: 687fc57623709-1753204086
+[2025-07-22 17:08:07] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-22 17:08:07] Search result: Found via transaction_id_digitopay
+[2025-07-22 17:08:07] Saque data: {"id":"58","user_id":"205","valor":"72.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 17:08:07] Status já atualizado: PROCESSING
+[2025-07-22 17:08:38] === WEBHOOK ACCESSED ===
+[2025-07-22 17:08:38] Method: POST
+[2025-07-22 17:08:38] User-Agent: Unknown
+[2025-07-22 17:08:38] Raw Input: {"recebedor":{"cpfCnpj":"11043799451","nome":"juliany Tavares de souza"},"id":"3405d525-fdba-47c2-950b-4abd7945c39f","movementDate":"2025-07-22T14:08:37.7377605Z","status":"REALIZADO","valor":72.0,"idempotencyKey":"687fc57623709-1753204086"}
+[2025-07-22 17:08:38] Parsed webhook data: {"recebedor":{"cpfCnpj":"11043799451","nome":"juliany Tavares de souza"},"id":"3405d525-fdba-47c2-950b-4abd7945c39f","movementDate":"2025-07-22T14:08:37.7377605Z","status":"REALIZADO","valor":72,"idempotencyKey":"687fc57623709-1753204086"}
+[2025-07-22 17:08:38] Processing - Transaction ID: 3405d525-fdba-47c2-950b-4abd7945c39f, Status: REALIZADO, Idempotency: 687fc57623709-1753204086
+[2025-07-22 17:08:38] Status mapping: REALIZADO -> PAID
+[2025-07-22 17:08:38] Search result: Found via transaction_id_digitopay
+[2025-07-22 17:08:38] Saque data: {"id":"58","user_id":"205","valor":"72.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-22 17:08:38] Status updated: PROCESSING -> PAID for saque ID 58
+[2025-07-22 17:08:38] Transaction committed successfully
+[2025-07-22 17:08:38] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"3405d525-fdba-47c2-950b-4abd7945c39f","saque_id":"58","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-22 17:08:38"}
+[2025-07-24 20:35:10] === WEBHOOK ACCESSED ===
+[2025-07-24 20:35:10] Method: POST
+[2025-07-24 20:35:10] User-Agent: Unknown
+[2025-07-24 20:35:10] Raw Input: {"id":"7e427d22-b0f9-41b7-bedb-05254d948cb2","movementDate":"2025-07-24T17:35:09.5915622Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"688298fd3e053-1753389309"}
+[2025-07-24 20:35:10] Parsed webhook data: {"id":"7e427d22-b0f9-41b7-bedb-05254d948cb2","movementDate":"2025-07-24T17:35:09.5915622Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"688298fd3e053-1753389309"}
+[2025-07-24 20:35:10] Processing - Transaction ID: 7e427d22-b0f9-41b7-bedb-05254d948cb2, Status: EM PROCESSAMENTO, Idempotency: 688298fd3e053-1753389309
+[2025-07-24 20:35:10] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-24 20:35:10] Search result: Found via transaction_id_digitopay
+[2025-07-24 20:35:10] Saque data: {"id":"110","user_id":"54","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 20:35:10] Status já atualizado: PROCESSING
+[2025-07-24 20:35:40] === WEBHOOK ACCESSED ===
+[2025-07-24 20:35:40] Method: POST
+[2025-07-24 20:35:40] User-Agent: Unknown
+[2025-07-24 20:35:40] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"7e427d22-b0f9-41b7-bedb-05254d948cb2","movementDate":"2025-07-24T17:35:38.9492215Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"688298fd3e053-1753389309"}
+[2025-07-24 20:35:40] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"7e427d22-b0f9-41b7-bedb-05254d948cb2","movementDate":"2025-07-24T17:35:38.9492215Z","status":"REALIZADO","valor":10,"idempotencyKey":"688298fd3e053-1753389309"}
+[2025-07-24 20:35:40] Processing - Transaction ID: 7e427d22-b0f9-41b7-bedb-05254d948cb2, Status: REALIZADO, Idempotency: 688298fd3e053-1753389309
+[2025-07-24 20:35:40] Status mapping: REALIZADO -> PAID
+[2025-07-24 20:35:40] Search result: Found via transaction_id_digitopay
+[2025-07-24 20:35:40] Saque data: {"id":"110","user_id":"54","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 20:35:40] Status updated: PROCESSING -> PAID for saque ID 110
+[2025-07-24 20:35:40] Transaction committed successfully
+[2025-07-24 20:35:40] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"7e427d22-b0f9-41b7-bedb-05254d948cb2","saque_id":"110","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-24 20:35:40"}
+[2025-07-24 22:09:41] === WEBHOOK ACCESSED ===
+[2025-07-24 22:09:41] Method: POST
+[2025-07-24 22:09:41] User-Agent: Unknown
+[2025-07-24 22:09:41] Raw Input: {"id":"1678b7c5-8798-417a-ae00-006b0c525293","movementDate":"2025-07-24T19:09:41.0849622Z","status":"EM PROCESSAMENTO","valor":67.0,"idempotencyKey":"6882af24bdea4-1753394980"}
+[2025-07-24 22:09:41] Parsed webhook data: {"id":"1678b7c5-8798-417a-ae00-006b0c525293","movementDate":"2025-07-24T19:09:41.0849622Z","status":"EM PROCESSAMENTO","valor":67,"idempotencyKey":"6882af24bdea4-1753394980"}
+[2025-07-24 22:09:41] Processing - Transaction ID: 1678b7c5-8798-417a-ae00-006b0c525293, Status: EM PROCESSAMENTO, Idempotency: 6882af24bdea4-1753394980
+[2025-07-24 22:09:41] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-24 22:09:41] Search result: Found via transaction_id_digitopay
+[2025-07-24 22:09:41] Saque data: {"id":"111","user_id":"205","valor":"67.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 22:09:41] Status já atualizado: PROCESSING
+[2025-07-24 22:10:09] === WEBHOOK ACCESSED ===
+[2025-07-24 22:10:09] Method: POST
+[2025-07-24 22:10:09] User-Agent: Unknown
+[2025-07-24 22:10:09] Raw Input: {"recebedor":{"cpfCnpj":"11043799451","nome":"juliany Tavares de souza"},"id":"1678b7c5-8798-417a-ae00-006b0c525293","movementDate":"2025-07-24T19:10:08.6745967Z","status":"REALIZADO","valor":67.0,"idempotencyKey":"6882af24bdea4-1753394980"}
+[2025-07-24 22:10:09] Parsed webhook data: {"recebedor":{"cpfCnpj":"11043799451","nome":"juliany Tavares de souza"},"id":"1678b7c5-8798-417a-ae00-006b0c525293","movementDate":"2025-07-24T19:10:08.6745967Z","status":"REALIZADO","valor":67,"idempotencyKey":"6882af24bdea4-1753394980"}
+[2025-07-24 22:10:09] Processing - Transaction ID: 1678b7c5-8798-417a-ae00-006b0c525293, Status: REALIZADO, Idempotency: 6882af24bdea4-1753394980
+[2025-07-24 22:10:09] Status mapping: REALIZADO -> PAID
+[2025-07-24 22:10:09] Search result: Found via transaction_id_digitopay
+[2025-07-24 22:10:09] Saque data: {"id":"111","user_id":"205","valor":"67.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 22:10:09] Status updated: PROCESSING -> PAID for saque ID 111
+[2025-07-24 22:10:09] Transaction committed successfully
+[2025-07-24 22:10:09] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"1678b7c5-8798-417a-ae00-006b0c525293","saque_id":"111","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-24 22:10:09"}
+[2025-07-24 23:56:08] === WEBHOOK ACCESSED ===
+[2025-07-24 23:56:08] Method: POST
+[2025-07-24 23:56:08] User-Agent: Unknown
+[2025-07-24 23:56:08] Raw Input: {"id":"a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8","movementDate":"2025-07-24T20:56:07.6888841Z","status":"EM PROCESSAMENTO","valor":10.0,"idempotencyKey":"6882c8175a01b-1753401367"}
+[2025-07-24 23:56:08] Parsed webhook data: {"id":"a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8","movementDate":"2025-07-24T20:56:07.6888841Z","status":"EM PROCESSAMENTO","valor":10,"idempotencyKey":"6882c8175a01b-1753401367"}
+[2025-07-24 23:56:08] Processing - Transaction ID: a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8, Status: EM PROCESSAMENTO, Idempotency: 6882c8175a01b-1753401367
+[2025-07-24 23:56:08] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-24 23:56:08] Search result: Found via transaction_id_digitopay
+[2025-07-24 23:56:08] Saque data: {"id":"112","user_id":"54","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 23:56:08] Status já atualizado: PROCESSING
+[2025-07-24 23:56:28] === WEBHOOK ACCESSED ===
+[2025-07-24 23:56:28] Method: POST
+[2025-07-24 23:56:28] User-Agent: Unknown
+[2025-07-24 23:56:28] Raw Input: {"id":"0a426cc4-4f65-411a-a2f0-6b1a5903f3a5","movementDate":"2025-07-24T20:56:28.0138723Z","status":"EM PROCESSAMENTO","valor":50.0,"idempotencyKey":"6882c82bce52a-1753401387"}
+[2025-07-24 23:56:28] Parsed webhook data: {"id":"0a426cc4-4f65-411a-a2f0-6b1a5903f3a5","movementDate":"2025-07-24T20:56:28.0138723Z","status":"EM PROCESSAMENTO","valor":50,"idempotencyKey":"6882c82bce52a-1753401387"}
+[2025-07-24 23:56:28] Processing - Transaction ID: 0a426cc4-4f65-411a-a2f0-6b1a5903f3a5, Status: EM PROCESSAMENTO, Idempotency: 6882c82bce52a-1753401387
+[2025-07-24 23:56:28] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-24 23:56:28] Search result: Found via transaction_id_digitopay
+[2025-07-24 23:56:28] Saque data: {"id":"113","user_id":"469","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 23:56:28] Status já atualizado: PROCESSING
+[2025-07-24 23:56:35] === WEBHOOK ACCESSED ===
+[2025-07-24 23:56:35] Method: POST
+[2025-07-24 23:56:35] User-Agent: Unknown
+[2025-07-24 23:56:35] Raw Input: {"id":"df8d3f13-8e75-4644-8286-53e9a61684ad","movementDate":"2025-07-24T20:56:35.1333432Z","status":"EM PROCESSAMENTO","valor":20.0,"idempotencyKey":"6882c832d779a-1753401394"}
+[2025-07-24 23:56:35] Parsed webhook data: {"id":"df8d3f13-8e75-4644-8286-53e9a61684ad","movementDate":"2025-07-24T20:56:35.1333432Z","status":"EM PROCESSAMENTO","valor":20,"idempotencyKey":"6882c832d779a-1753401394"}
+[2025-07-24 23:56:35] Processing - Transaction ID: df8d3f13-8e75-4644-8286-53e9a61684ad, Status: EM PROCESSAMENTO, Idempotency: 6882c832d779a-1753401394
+[2025-07-24 23:56:35] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-24 23:56:35] Search result: Found via transaction_id_digitopay
+[2025-07-24 23:56:35] Saque data: {"id":"114","user_id":"424","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 23:56:35] Status já atualizado: PROCESSING
+[2025-07-24 23:56:40] === WEBHOOK ACCESSED ===
+[2025-07-24 23:56:40] Method: POST
+[2025-07-24 23:56:40] User-Agent: Unknown
+[2025-07-24 23:56:40] Raw Input: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8","movementDate":"2025-07-24T20:56:39.4909851Z","status":"REALIZADO","valor":10.0,"idempotencyKey":"6882c8175a01b-1753401367"}
+[2025-07-24 23:56:40] Parsed webhook data: {"recebedor":{"cpfCnpj":"06097787227","nome":"Williamgoncalvesferreira"},"id":"a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8","movementDate":"2025-07-24T20:56:39.4909851Z","status":"REALIZADO","valor":10,"idempotencyKey":"6882c8175a01b-1753401367"}
+[2025-07-24 23:56:40] Processing - Transaction ID: a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8, Status: REALIZADO, Idempotency: 6882c8175a01b-1753401367
+[2025-07-24 23:56:40] Status mapping: REALIZADO -> PAID
+[2025-07-24 23:56:40] Search result: Found via transaction_id_digitopay
+[2025-07-24 23:56:40] Saque data: {"id":"112","user_id":"54","valor":"10.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 23:56:40] Status updated: PROCESSING -> PAID for saque ID 112
+[2025-07-24 23:56:40] Transaction committed successfully
+[2025-07-24 23:56:40] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"a4b71fd7-b5c2-4460-ac61-f0629c2bf9c8","saque_id":"112","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-24 23:56:40"}
+[2025-07-24 23:56:43] === WEBHOOK ACCESSED ===
+[2025-07-24 23:56:43] Method: POST
+[2025-07-24 23:56:43] User-Agent: Unknown
+[2025-07-24 23:56:43] Raw Input: {"recebedor":{"cpfCnpj":"09802338443","nome":"Wilma Graziela silva de sales"},"id":"0a426cc4-4f65-411a-a2f0-6b1a5903f3a5","movementDate":"2025-07-24T20:56:42.4833381Z","status":"REALIZADO","valor":50.0,"idempotencyKey":"6882c82bce52a-1753401387"}
+[2025-07-24 23:56:43] Parsed webhook data: {"recebedor":{"cpfCnpj":"09802338443","nome":"Wilma Graziela silva de sales"},"id":"0a426cc4-4f65-411a-a2f0-6b1a5903f3a5","movementDate":"2025-07-24T20:56:42.4833381Z","status":"REALIZADO","valor":50,"idempotencyKey":"6882c82bce52a-1753401387"}
+[2025-07-24 23:56:43] Processing - Transaction ID: 0a426cc4-4f65-411a-a2f0-6b1a5903f3a5, Status: REALIZADO, Idempotency: 6882c82bce52a-1753401387
+[2025-07-24 23:56:43] Status mapping: REALIZADO -> PAID
+[2025-07-24 23:56:43] Search result: Found via transaction_id_digitopay
+[2025-07-24 23:56:43] Saque data: {"id":"113","user_id":"469","valor":"50.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 23:56:43] Status updated: PROCESSING -> PAID for saque ID 113
+[2025-07-24 23:56:43] Transaction committed successfully
+[2025-07-24 23:56:43] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"0a426cc4-4f65-411a-a2f0-6b1a5903f3a5","saque_id":"113","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-24 23:56:43"}
+[2025-07-24 23:56:43] === WEBHOOK ACCESSED ===
+[2025-07-24 23:56:43] Method: POST
+[2025-07-24 23:56:43] User-Agent: Unknown
+[2025-07-24 23:56:43] Raw Input: {"recebedor":{"cpfCnpj":"97251089149","nome":"Ezivania da Silva cunha"},"id":"df8d3f13-8e75-4644-8286-53e9a61684ad","movementDate":"2025-07-24T20:56:42.5877177Z","status":"REALIZADO","valor":20.0,"idempotencyKey":"6882c832d779a-1753401394"}
+[2025-07-24 23:56:43] Parsed webhook data: {"recebedor":{"cpfCnpj":"97251089149","nome":"Ezivania da Silva cunha"},"id":"df8d3f13-8e75-4644-8286-53e9a61684ad","movementDate":"2025-07-24T20:56:42.5877177Z","status":"REALIZADO","valor":20,"idempotencyKey":"6882c832d779a-1753401394"}
+[2025-07-24 23:56:43] Processing - Transaction ID: df8d3f13-8e75-4644-8286-53e9a61684ad, Status: REALIZADO, Idempotency: 6882c832d779a-1753401394
+[2025-07-24 23:56:43] Status mapping: REALIZADO -> PAID
+[2025-07-24 23:56:43] Search result: Found via transaction_id_digitopay
+[2025-07-24 23:56:43] Saque data: {"id":"114","user_id":"424","valor":"20.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-24 23:56:43] Status updated: PROCESSING -> PAID for saque ID 114
+[2025-07-24 23:56:43] Transaction committed successfully
+[2025-07-24 23:56:43] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"df8d3f13-8e75-4644-8286-53e9a61684ad","saque_id":"114","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-24 23:56:43"}
+[2025-07-25 00:00:33] === WEBHOOK ACCESSED ===
+[2025-07-25 00:00:33] Method: POST
+[2025-07-25 00:00:33] User-Agent: Unknown
+[2025-07-25 00:00:33] Raw Input: {"id":"19bdfa74-feea-4968-ac34-a138d0b94e1f","movementDate":"2025-07-24T21:00:33.1335781Z","status":"EM PROCESSAMENTO","valor":30.0,"idempotencyKey":"6882c920d02f1-1753401632"}
+[2025-07-25 00:00:33] Parsed webhook data: {"id":"19bdfa74-feea-4968-ac34-a138d0b94e1f","movementDate":"2025-07-24T21:00:33.1335781Z","status":"EM PROCESSAMENTO","valor":30,"idempotencyKey":"6882c920d02f1-1753401632"}
+[2025-07-25 00:00:33] Processing - Transaction ID: 19bdfa74-feea-4968-ac34-a138d0b94e1f, Status: EM PROCESSAMENTO, Idempotency: 6882c920d02f1-1753401632
+[2025-07-25 00:00:33] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-25 00:00:33] Search result: Found via transaction_id_digitopay
+[2025-07-25 00:00:33] Saque data: {"id":"115","user_id":"274","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-25 00:00:33] Status já atualizado: PROCESSING
+[2025-07-25 00:00:44] === WEBHOOK ACCESSED ===
+[2025-07-25 00:00:44] Method: POST
+[2025-07-25 00:00:44] User-Agent: Unknown
+[2025-07-25 00:00:44] Raw Input: {"recebedor":{"cpfCnpj":"42399214811","nome":"MARCELO CESAR PEREIRA DE AZEVEDO"},"id":"19bdfa74-feea-4968-ac34-a138d0b94e1f","movementDate":"2025-07-24T21:00:44.16543Z","status":"REALIZADO","valor":30.0,"idempotencyKey":"6882c920d02f1-1753401632"}
+[2025-07-25 00:00:44] Parsed webhook data: {"recebedor":{"cpfCnpj":"42399214811","nome":"MARCELO CESAR PEREIRA DE AZEVEDO"},"id":"19bdfa74-feea-4968-ac34-a138d0b94e1f","movementDate":"2025-07-24T21:00:44.16543Z","status":"REALIZADO","valor":30,"idempotencyKey":"6882c920d02f1-1753401632"}
+[2025-07-25 00:00:44] Processing - Transaction ID: 19bdfa74-feea-4968-ac34-a138d0b94e1f, Status: REALIZADO, Idempotency: 6882c920d02f1-1753401632
+[2025-07-25 00:00:44] Status mapping: REALIZADO -> PAID
+[2025-07-25 00:00:44] Search result: Found via transaction_id_digitopay
+[2025-07-25 00:00:44] Saque data: {"id":"115","user_id":"274","valor":"30.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-25 00:00:44] Status updated: PROCESSING -> PAID for saque ID 115
+[2025-07-25 00:00:44] Transaction committed successfully
+[2025-07-25 00:00:44] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"19bdfa74-feea-4968-ac34-a138d0b94e1f","saque_id":"115","old_status":"PROCESSING","new_status":"PAID","search_method":"transaction_id_digitopay","timestamp":"2025-07-25 00:00:44"}
+[2025-07-25 00:03:01] === WEBHOOK ACCESSED ===
+[2025-07-25 00:03:01] Method: POST
+[2025-07-25 00:03:01] User-Agent: Unknown
+[2025-07-25 00:03:01] Raw Input: {"id":"5ce23945-7f9c-45ce-86ce-a574eda77947","movementDate":"2025-07-24T21:03:00.2686607Z","status":"EM PROCESSAMENTO","valor":18.0,"idempotencyKey":"6882c9b3e840c-1753401779"}
+[2025-07-25 00:03:01] Parsed webhook data: {"id":"5ce23945-7f9c-45ce-86ce-a574eda77947","movementDate":"2025-07-24T21:03:00.2686607Z","status":"EM PROCESSAMENTO","valor":18,"idempotencyKey":"6882c9b3e840c-1753401779"}
+[2025-07-25 00:03:01] Processing - Transaction ID: 5ce23945-7f9c-45ce-86ce-a574eda77947, Status: EM PROCESSAMENTO, Idempotency: 6882c9b3e840c-1753401779
+[2025-07-25 00:03:01] Status mapping: EM PROCESSAMENTO -> PROCESSING
+[2025-07-25 00:03:01] Search result: Found via transaction_id_digitopay
+[2025-07-25 00:03:01] Saque data: {"id":"116","user_id":"434","valor":"18.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-25 00:03:01] Status já atualizado: PROCESSING
+[2025-07-25 00:03:03] === WEBHOOK ACCESSED ===
+[2025-07-25 00:03:03] Method: POST
+[2025-07-25 00:03:03] User-Agent: Unknown
+[2025-07-25 00:03:03] Raw Input: {"id":"5ce23945-7f9c-45ce-86ce-a574eda77947","movementDate":"2025-07-24T21:03:03.3582233Z","status":"CANCELADO","valor":18.0,"idempotencyKey":"6882c9b3e840c-1753401779"}
+[2025-07-25 00:03:03] Parsed webhook data: {"id":"5ce23945-7f9c-45ce-86ce-a574eda77947","movementDate":"2025-07-24T21:03:03.3582233Z","status":"CANCELADO","valor":18,"idempotencyKey":"6882c9b3e840c-1753401779"}
+[2025-07-25 00:03:03] Processing - Transaction ID: 5ce23945-7f9c-45ce-86ce-a574eda77947, Status: CANCELADO, Idempotency: 6882c9b3e840c-1753401779
+[2025-07-25 00:03:03] Status mapping: CANCELADO -> CANCELLED
+[2025-07-25 00:03:03] Search result: Found via transaction_id_digitopay
+[2025-07-25 00:03:03] Saque data: {"id":"116","user_id":"434","valor":"18.00","status":"PROCESSING","gateway":"digitopay"}
+[2025-07-25 00:03:03] Status updated: PROCESSING -> CANCELLED for saque ID 116
+[2025-07-25 00:03:03] Processing refund for failed/cancelled withdrawal
+[2025-07-25 00:03:03] Refund processed: R$ 18.00 returned to user 434
+[2025-07-25 00:03:03] Transaction committed successfully
+[2025-07-25 00:03:03] SUCCESS: {"status":"success","message":"Webhook processado com sucesso","transaction_id":"5ce23945-7f9c-45ce-86ce-a574eda77947","saque_id":"116","old_status":"PROCESSING","new_status":"CANCELLED","search_method":"transaction_id_digitopay","timestamp":"2025-07-25 00:03:03"}
